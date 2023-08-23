@@ -3,7 +3,7 @@ import numpy as np
 import openai
 
 # 발급받은 API 키 설정
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 # openai API 키 인증
 openai.api_key = OPENAI_API_KEY
