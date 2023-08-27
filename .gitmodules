@@ -1,0 +1,3 @@
+[submodule "onlinequiz"]
+	path = onlinequiz
+	url = https://github.com/sumitkumar1503/onlinequiz
