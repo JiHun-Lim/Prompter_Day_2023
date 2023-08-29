@@ -1,7 +1,7 @@
 [
     {
         "Ch.No.": "1.5",
-        "GenNo.": 1,
+        "GenNo.": "1 - 1",
         "Problem": "Find the exact value of sin(2cos^-1(3/5)).",
         "Answer": "24/25",
         "Solution": "Solution:\n\nStep 1: We know that cos^-1(3/5) is an angle whose cosine is 3/5. Let's call this angle θ. So, cos(θ) = 3/5.\n\nStep 2: We need to find sin(2θ). We can use the double angle formula for sine, which is sin(2θ) = 2sin(θ)cos(θ).\n\nStep 3: We know the value of cos(θ), but we don't know the value of sin(θ). To find sin(θ), we can use the Pythagorean identity sin^2(θ) + cos^2(θ) = 1. Solving for sin(θ), we get sin(θ) = sqrt(1 - cos^2(θ)).\n\nStep 4: Substituting cos(θ) = 3/5 into the equation, we get sin(θ) = sqrt(1 - (3/5)^2) = sqrt(1 - 9/25) = sqrt(16/25) = 4/5.\n\nStep 5: Now we can substitute sin(θ) = 4/5 and cos(θ) = 3/5 into the double angle formula. We get sin(2θ) = 2*(4/5)*(3/5) = 24/25.\n\nSo, the exact value of sin(2cos^-1(3/5)) is 24/25.",
@@ -9,7 +9,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 2,
+        "GenNo.": "1 - 2",
         "Problem": "Find the exact value of cos(2sin^-1(12/13)).",
         "Answer": "-119/169",
         "Solution": "Solution:\n\nStep 1: We know that cos(2θ) = 1 - 2sin^2(θ). We can use this identity to simplify the problem. \n\nStep 2: Let θ = sin^-1(12/13). This means that sin(θ) = 12/13. \n\nStep 3: We can use the Pythagorean identity, sin^2(θ) + cos^2(θ) = 1, to find cos(θ). Solving for cos(θ), we get cos(θ) = sqrt(1 - sin^2(θ)) = sqrt(1 - (12/13)^2) = sqrt(1 - 144/169) = sqrt(25/169) = 5/13.\n\nStep 4: Now we can substitute θ = sin^-1(12/13) into the identity cos(2θ) = 1 - 2sin^2(θ) to get cos(2sin^-1(12/13)) = 1 - 2*(12/13)^2 = 1 - 2*144/169 = 1 - 288/169 = -119/169.\n\nSo, the exact value of cos(2sin^-1(12/13)) is -119/169.",
@@ -17,7 +17,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 3,
+        "GenNo.": "1 - 3",
         "Problem": "Find the exact value of sin(2cos^-1(4/5)).",
         "Answer": "24/25",
         "Solution": "Solution:\n\nStep 1: Let's denote cos^-1(4/5) as x. So, we need to find the value of sin(2x).\n\nStep 2: We know that sin(2x) = 2sin(x)cos(x). So, we need to find the values of sin(x) and cos(x).\n\nStep 3: We already know that cos(x) = 4/5. To find sin(x), we can use the Pythagorean identity sin^2(x) + cos^2(x) = 1. \n\nStep 4: Substituting the known value of cos(x) into the identity, we get sin^2(x) + (4/5)^2 = 1. Solving for sin^2(x), we get sin^2(x) = 1 - (4/5)^2 = 1 - 16/25 = 9/25. \n\nStep 5: Taking the square root of both sides, we get sin(x) = ±sqrt(9/25) = ±3/5. Since cos^-1(4/5) is in the first quadrant where sine is positive, we take the positive root, so sin(x) = 3/5.\n\nStep 6: Now we substitute these values into the formula for sin(2x): sin(2x) = 2sin(x)cos(x) = 2*(3/5)*(4/5) = 24/25.\n\nSo, the exact value of sin(2cos^-1(4/5)) is 24/25.",
@@ -25,7 +25,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 4,
+        "GenNo.": "1 - 4",
         "Problem": "Find the exact value of cos(2sin^-1(9/41)).",
         "Answer": "1519/1681",
         "Solution": "Solution:\n\nStep 1: Let's denote sin^-1(9/41) as θ. This means that sin(θ) = 9/41.\n\nStep 2: We need to find the value of cos(2θ). We know that cos(2θ) = 1 - 2sin^2(θ), according to the double-angle formula for cosine.\n\nStep 3: Substitute sin(θ) = 9/41 into the formula. We get cos(2θ) = 1 - 2*(9/41)^2.\n\nStep 4: Simplify the equation. (9/41)^2 = 81/1681.\n\nStep 5: Substitute back into the equation. We get cos(2θ) = 1 - 2*(81/1681).\n\nStep 6: Simplify further. We get cos(2θ) = 1 - 162/1681 = 1519/1681.\n\nTherefore, the exact value of cos(2sin^-1(9/41)) is 1519/1681.",
@@ -33,7 +33,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 5,
+        "GenNo.": "1 - 5",
         "Problem": "Find the exact value of sin(2cos^-1(7/25)).",
         "Answer": "336/625",
         "Solution": "Solution:\n\nThe problem is asking for the exact value of sin(2cos^-1(7/25)). This can be solved using the double angle formula for sine, which is sin(2x) = 2sin(x)cos(x).\n\nFirst, we need to find the value of cos^-1(7/25). This is the angle whose cosine is 7/25. We'll call this angle x.\n\nSo, x = cos^-1(7/25).\n\nNext, we substitute x into the double angle formula for sine.\n\nsin(2x) = 2sin(x)cos(x)\n\nsin(2cos^-1(7/25)) = 2sin(cos^-1(7/25))cos(cos^-1(7/25))\n\nWe know that sin(x) and cos(x) are related by the Pythagorean identity sin^2(x) + cos^2(x) = 1. We can rearrange this to find sin(x) in terms of cos(x):\n\nsin(x) = sqrt(1 - cos^2(x))\n\nSubstituting this into our equation gives:\n\nsin(2cos^-1(7/25)) = 2sqrt(1 - (7/25)^2) * (7/25)\n\nSolving this gives:\n\nsin(2cos^-1(7/25)) = 2sqrt(1 - 49/625) * (7/25)\n\nsin(2cos^-1(7/25)) = 2sqrt(576/625) * (7/25)\n\nsin(2cos^-1(7/25)) = 2 * (24/25) * (7/25)\n\nsin(2cos^-1(7/25)) = 336/625\n\nSo, the exact value of sin(2cos^-1(7/25)) is 336/625.",
@@ -41,7 +41,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 6,
+        "GenNo.": "3 - 1",
         "Problem": "Simplify the expression tan(cos^-1(x))",
         "Answer": "sqrt(1 - x^2) / x",
         "Solution": "Solution:\n\nStep 1: Let's denote cos^-1(x) as y. Thus, x = cos(y).\n\nStep 2: We know that cos^2(y) + sin^2(y) = 1. So, sin^2(y) = 1 - cos^2(y).\n\nStep 3: Since x = cos(y), we can substitute cos(y) with x in the equation from step 2. This gives us sin^2(y) = 1 - x^2.\n\nStep 4: Now, we need to find sin(y). Since sin(y) = sqrt(1 - cos^2(y)), we can substitute cos(y) with x again. This gives us sin(y) = sqrt(1 - x^2).\n\nStep 5: Finally, we substitute y in tan(y) with cos^-1(x) and sin(y) with sqrt(1 - x^2). This gives us tan(cos^-1(x)) = sqrt(1 - x^2) / x.\n\nAnswer: tan(cos^-1(x)) = sqrt(1 - x^2) / x.",
@@ -49,7 +49,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 7,
+        "GenNo.": "3 - 2",
         "Problem": "Simplify the expression cos(sin^-1(x))",
         "Answer": "sqrt(1 - x^2)",
         "Solution": "Solution:\n\nStep 1: We start by recognizing that sin^-1(x) is the angle whose sine is x. \n\nStep 2: We can then draw a right triangle where the opposite side is x and the hypotenuse is 1. This is because the sine of an angle in a right triangle is the ratio of the length of the opposite side to the length of the hypotenuse.\n\nStep 3: Using the Pythagorean theorem, we can find the length of the adjacent side. The theorem states that the square of the hypotenuse is equal to the sum of the squares of the other two sides. In this case, the hypotenuse is 1 and one of the other sides is x. Therefore, the length of the adjacent side is sqrt(1 - x^2).\n\nStep 4: The cosine of an angle in a right triangle is the ratio of the length of the adjacent side to the length of the hypotenuse. Therefore, cos(sin^-1(x)) = sqrt(1 - x^2) / 1 = sqrt(1 - x^2).\n\nAnswer: sqrt(1 - x^2)",
@@ -57,7 +57,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 8,
+        "GenNo.": "3 - 3",
         "Problem": "Simplify the expression sin(cos^-1(x))",
         "Answer": "sqrt(1 - x^2)",
         "Solution": "Solution:\n\n1. We start by considering the inverse cosine function, cos^-1(x), which gives us an angle whose cosine is x. \n\n2. We know that for any angle θ, the sine and cosine are related by the Pythagorean identity sin^2(θ) + cos^2(θ) = 1. \n\n3. Therefore, if cos(θ) = x, then sin(θ) = sqrt(1 - x^2) or -sqrt(1 - x^2), depending on the quadrant of θ. \n\n4. However, since the range of cos^-1(x) is [0, π], the corresponding sine values are all nonnegative. \n\n5. Therefore, sin(cos^-1(x)) = sqrt(1 - x^2).\n\nAnswer: sqrt(1 - x^2)",
@@ -65,7 +65,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 9,
+        "GenNo.": "3 - 4",
         "Problem": "Simplify the expression tan(sin^-1(x))",
         "Answer": "x/sqrt(1 - x^2)",
         "Solution": "Solution:\n\nThe problem asks us to simplify the expression tan(sin^-1(x)). \n\nStep 1: We know that sin^-1(x) is the angle whose sine is x. Let's denote this angle as θ. So, θ = sin^-1(x).\n\nStep 2: Now, we need to find tan(θ). But we don't know the cosine of this angle, which we need to calculate the tangent (since tan(θ) = sin(θ)/cos(θ)).\n\nStep 3: We can use the Pythagorean identity sin^2(θ) + cos^2(θ) = 1 to find cos(θ). We know sin(θ) = x, so we can substitute this into the identity to get x^2 + cos^2(θ) = 1.\n\nStep 4: Solving this equation for cos(θ), we get cos(θ) = sqrt(1 - x^2).\n\nStep 5: Now, we can find tan(θ) = sin(θ)/cos(θ) = x/sqrt(1 - x^2).\n\nSo, tan(sin^-1(x)) = x/sqrt(1 - x^2).\n\nAnswer: x/sqrt(1 - x^2).",
@@ -73,7 +73,7 @@
     },
     {
         "Ch.No.": "1.5",
-        "GenNo.": 10,
+        "GenNo.": "3 - 5",
         "Problem": "Simplify the expression cos(tan^-1(x))",
         "Answer": "1/sqrt(1 + x^2)",
         "Solution": "Solution:\n\nThe problem asks us to simplify the expression cos(tan^-1(x)). \n\nTo solve this, we can use the Pythagorean identity sin^2(x) + cos^2(x) = 1. But first, we need to express cos(tan^-1(x)) in terms of sin or cos.\n\nLet's start by setting tan^-1(x) = θ. This implies that tan(θ) = x. \n\nWe can create a right triangle where the opposite side is x and the adjacent side is 1. By the Pythagorean theorem, the hypotenuse is sqrt(1 + x^2).\n\nIn this triangle, cos(θ) is the ratio of the adjacent side to the hypotenuse, which is 1/sqrt(1 + x^2).\n\nSo, cos(tan^-1(x)) = cos(θ) = 1/sqrt(1 + x^2).\n\nTherefore, the simplified expression for cos(tan^-1(x)) is 1/sqrt(1 + x^2). \n\nAnswer: 1/sqrt(1 + x^2)",
@@ -81,7 +81,7 @@
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 16,
+        "GenNo.": "5 - 1",
         "Problem": "If x^2y + e^y = e^2, find the value of y'' at the point where x = 0.",
         "Answer": "-4/e^2",
         "Solution": "To solve this problem, we first need to find the derivative of the given equation with respect to x. The equation is x^2y + e^y = e^2. \n\nFirst, let's differentiate both sides of the equation with respect to x. We will use the product rule (d/dx[uv] = u'v + uv') for the first term and the chain rule (d/dx[f(g(x))] = f'(g(x))g'(x)) for the second term. \n\nThe derivative of x^2y with respect to x is 2xy + x^2y'. The derivative of e^y with respect to x is e^y * y', because the derivative of e^y with respect to y is e^y and we multiply by y' due to the chain rule. The derivative of a constant (e^2) is 0.\n\nSo, the derivative of the equation is 2xy + x^2y' + e^y * y' = 0.\n\nNext, we need to find the second derivative of the equation. We differentiate the first derivative with respect to x. Again, we will use the product rule and the chain rule.\n\nThe derivative of 2xy with respect to x is 2y. The derivative of x^2y' with respect to x is 2xy' + x^2y''. The derivative of e^y * y' with respect to x is e^y * y'' + e^y * (y')^2, because the derivative of e^y with respect to y is e^y and we multiply by y'' due to the chain rule, and the derivative of y' with respect to x is y''.\n\nSo, the second derivative of the equation is 2y + 2xy' + x^2y'' + e^y * y'' + e^y * (y')^2 = 0.\n\nWe are asked to find the value of y'' at the point where x = 0. We substitute x = 0 into the second derivative.\n\nThis gives us 2y + e^y * y'' = 0. \n\nTo solve for y'', we rearrange the equation to get y'' = -2y/e^y.\n\nWe know that at x = 0, the original equation x^2y + e^y = e^2 becomes 0 + e^y = e^2, so e^y = e^2, which means y = 2.\n\nSubstituting y = 2 into the equation for y'' gives us y'' = -2*2/e^2 = -4/e^2.\n\nSo, the value of y'' at the point where x = 0 is -4/e^2.",
@@ -89,7 +89,7 @@
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 21,
+        "GenNo.": "6 - 1",
         "Problem": "Find all points on the curve x^2y^2 + xy = 2 where the slope of the tangent line is 1.",
         "Answer": "(sqrt(2),-sqrt(2)), (-sqrt(2),sqrt(2))",
         "Solution": "",
@@ -97,34 +97,34 @@
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 22,
+        "GenNo.": "6 - 2",
         "Problem": "Find all points on the curve x^2y^2 + xy = 6 where the slope of the tangent line is -1.",
         "Solution": "",
         "Valid": 0
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 23,
+        "GenNo.": "6 - 3",
         "Problem": "Find all points on the curve x^2y^2 + xy = 12 where the slope of the tangent line is -1.",
         "Valid": 0
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 24,
+        "GenNo.": "6 - 4",
         "Problem": "Find all points on the curve x^2y^2 + xy = 6 where the slope of the tangent line is 1.",
         "Solution": "",
         "Valid": 0
     },
     {
         "Ch.No.": "3.5",
-        "GenNo.": 25,
+        "GenNo.": "6 - 5",
         "Problem": "Find all points on the curve x^2y^2 + xy = 20 where the slope of the tangent line is -1.",
         "Solution": "",
         "Valid": 0
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 26,
+        "GenNo.": "7 - 1",
         "Problem": "Use logarithmic differentiation to find the derivative of the function. y = (2x)^(1/x)",
         "Answer": "(2x)^(1/x) * (-ln(2x)/x^2 + 1/x^2)",
         "Solution": "Solution:\n\nStep 1: We start with the given function y = (2x)^(1/x). \n\nStep 2: To make the differentiation easier, we take the natural logarithm on both sides. This gives us ln(y) = ln((2x)^(1/x)).\n\nStep 3: Using the property of logarithms that allows us to bring the exponent to the front, we get ln(y) = (1/x) * ln(2x).\n\nStep 4: Now we differentiate both sides with respect to x. The left side becomes 1/y * y', where y' is the derivative of y with respect to x. The right side becomes a bit more complex due to the quotient rule and chain rule. \n\nStep 5: Differentiating (1/x) gives us -1/x^2. Differentiating ln(2x) gives us 1/(2x) * 2 = 1/x. \n\nStep 6: Applying the product rule to the right side, we get -1/x^2 * ln(2x) + 1/x * 1/x = -ln(2x)/x^2 + 1/x^2.\n\nStep 7: So, we have 1/y * y' = -ln(2x)/x^2 + 1/x^2.\n\nStep 8: To find y', we multiply both sides by y, giving us y' = y * (-ln(2x)/x^2 + 1/x^2).\n\nStep 9: Substituting y = (2x)^(1/x) back into the equation, we get y' = (2x)^(1/x) * (-ln(2x)/x^2 + 1/x^2).\n\nSo, the derivative of the function y = (2x)^(1/x) is y' = (2x)^(1/x) * (-ln(2x)/x^2 + 1/x^2).",
@@ -132,7 +132,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 27,
+        "GenNo.": "7 - 2",
         "Problem": "Find the derivative of y = sin(x^2).",
         "Answer": "2x cos(x^2)",
         "Solution": "Solution:\n\nStep 1: Identify the outer function and the inner function. In this case, the outer function is sin(x) and the inner function is x^2.\n\nStep 2: Apply the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. \n\nStep 3: Differentiate the outer function. The derivative of sin(x) is cos(x).\n\nStep 4: Differentiate the inner function. The derivative of x^2 is 2x.\n\nStep 5: Multiply the derivatives from steps 3 and 4 according to the chain rule. This gives us (cos(x^2))(2x).\n\nSo, the derivative of y = sin(x^2) is y' = 2x cos(x^2).",
@@ -140,7 +140,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 28,
+        "GenNo.": "7 - 3",
         "Problem": "Use logarithmic differentiation to find the derivative of the function. y = (3x)^(1/3x)",
         "Answer": "(3x)^(1/3x) * [(-1/3x^2) * ln(3x) + (1/3x) * (1/x)]",
         "Solution": "Solution:\n\nStep 1: We start by taking the natural logarithm on both sides of the equation to simplify the expression. This gives us ln(y) = ln((3x)^(1/3x)).\n\nStep 2: We then use the property of logarithms that allows us to bring the exponent to the front, which gives us ln(y) = (1/3x) * ln(3x).\n\nStep 3: Now we differentiate both sides of the equation with respect to x. The derivative of ln(y) with respect to y is 1/y, and we multiply this by dy/dx (using the chain rule) to give us dy/dx = (1/y) * dy/dx.\n\nStep 4: On the right-hand side, we have a product of two functions (1/3x and ln(3x)), so we use the product rule for differentiation. The derivative of (1/3x) with respect to x is -1/3x^2, and the derivative of ln(3x) with respect to x is 1/x. So, the derivative of the right-hand side is (-1/3x^2) * ln(3x) + (1/3x) * (1/x).\n\nStep 5: We then multiply both sides of the equation by y to isolate dy/dx on the left-hand side, which gives us dy/dx = y * [(-1/3x^2) * ln(3x) + (1/3x) * (1/x)].\n\nStep 6: Finally, we substitute y = (3x)^(1/3x) back into the equation to get dy/dx = (3x)^(1/3x) * [(-1/3x^2) * ln(3x) + (1/3x) * (1/x)].\n\nAnswer: dy/dx = (3x)^(1/3x) * [(-1/3x^2) * ln(3x) + (1/3x) * (1/x)].",
@@ -148,7 +148,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 29,
+        "GenNo.": "7 - 4",
         "Problem": "Find the derivative of the function f(x) = 3x^2 + 5x - 7.",
         "Answer": "6x + 5",
         "Solution": "Solution:\n\nStep 1: Identify the function\nThe function is f(x) = 3x^2 + 5x - 7. This is a polynomial function.\n\nStep 2: Understand what needs to be done\nWe need to find the derivative of the function. The derivative of a function gives us a new function that tells us how the original function changes at any given point.\n\nStep 3: Identify the rules needed\nThe power rule is needed to find the derivative of this function. The power rule states that the derivative of x^n, where n is any real number, is n*x^(n-1).\n\nStep 4: Apply the rules\nApplying the power rule to each term in the function gives us:\nThe derivative of 3x^2 is 2*3*x^(2-1) = 6x.\nThe derivative of 5x is 1*5*x^(1-1) = 5.\nThe derivative of -7 is 0, because the derivative of a constant is 0.\n\nStep 5: Write the derivative function\nThe derivative of the function f(x) = 3x^2 + 5x - 7 is f'(x) = 6x + 5.\n\nAnswer: The derivative of the function f(x) = 3x^2 + 5x - 7 is f'(x) = 6x + 5.",
@@ -156,7 +156,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 30,
+        "GenNo.": "7 - 5",
         "Problem": "Use logarithmic differentiation to find the derivative of the function. y = (x^2)^(1/x)",
         "Answer": "(x^2)^(1/x) * [2ln(x) - 2]/x^2.",
         "Solution": "Solution:\n\nStep 1: Start by taking the natural logarithm (ln) of both sides to simplify the expression. \n\nln(y) = ln[(x^2)^(1/x)]\n\nStep 2: Use the power rule of logarithms to bring the exponent in front.\n\nln(y) = (1/x) * ln(x^2)\n\nStep 3: Simplify the right side further by applying the power rule again.\n\nln(y) = (1/x) * 2ln(x)\n\nStep 4: Differentiate both sides with respect to x. On the left side, we use the chain rule: the derivative of ln(y) is 1/y times the derivative of y. On the right side, we use the quotient rule: the derivative of u/v is (v*u' - u*v')/v^2.\n\n(1/y) * y' = [2x*ln(x) - 2]/x^2\n\nStep 5: Multiply both sides by y to isolate y'.\n\ny' = y * [2x*ln(x) - 2]/x^2\n\nStep 6: Substitute the original function y = (x^2)^(1/x) back into the equation.\n\ny' = (x^2)^(1/x) * [2x*ln(x) - 2]/x^2\n\nSo, the derivative of the function y = (x^2)^(1/x) is y' = (x^2)^(1/x) * [2x*ln(x) - 2]/x^2.",
@@ -164,7 +164,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 31,
+        "GenNo.": "8 - 1",
         "Problem": "Find the derivative of the function. Simplify where possible. f(x) = tan^-1(x) + tan^-1(1/x)",
         "Answer": "0",
         "Solution": "Solution:\n\nStep 1: We know that the derivative of tan^-1(x) is 1/(1+x^2). So, the derivative of f(x) = tan^-1(x) is f'(x) = 1/(1+x^2).\n\nStep 2: To find the derivative of tan^-1(1/x), we can use the chain rule. The chain rule states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function. Here, the outer function is tan^-1(u) and the inner function is 1/x. \n\nStep 3: The derivative of the outer function is 1/(1+u^2), and the derivative of the inner function is -1/x^2. So, the derivative of tan^-1(1/x) is -1/(x^2(1+(1/x)^2)).\n\nStep 4: Simplify the expression -1/(x^2(1+(1/x)^2)) to -1/(x^2 + 1).\n\nStep 5: So, the derivative of f(x) = tan^-1(x) + tan^-1(1/x) is f'(x) = 1/(1+x^2) - 1/(x^2 + 1).\n\nAnswer: f'(x) = 1/(1+x^2) - 1/(x^2 + 1)",
@@ -172,7 +172,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 32,
+        "GenNo.": "8 - 2",
         "Problem": "Find the derivative of the function. Simplify where possible. f(x) = csc^-1(x) + csc^-1(1/x)",
         "Answer": "-1/xsqrt(x^2-1) + 1/sqrt(1-x^2)",
         "Solution": "To find the derivative of this function, we first need to recognize that the derivative of the inverse cosecant function, csc^-1(x), is -1/(|x|sqrt(x^2 - 1)). We also need to know the chain rule, which states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function.\n\nLet's start with the first term, csc^-1(x). By the rule we mentioned, its derivative will be -1/(|x|sqrt(x^2 - 1)). \n\nNow let's take a look at the second term, csc^-1(1/x). This is a composition of functions, so we will need to use the chain rule. The outer function is csc^-1(u), and its derivative is -1/(|u|sqrt(u^2 - 1)), where u is the inner function. The inner function here is 1/x, and its derivative is -1/x^2.\n\nBy the chain rule, the derivative of csc^-1(1/x) is the product of these two derivatives, which gives us [1/(x^2)] * [-1/(|1/x|sqrt((1/x)^2 - 1))]. \n\nSimplify this to get -1/(x^2*|1/x|sqrt((1/x)^2 - 1)). \n\nNow, |1/x| is just 1/|x|, and (1/x)^2 - 1 can be rewritten as 1/x^2 - 1. So, we have -1/(x^2*(1/|x|)*sqrt(1/x^2 - 1)).\n\nSimplify this to get -1/(x*sqrt(1/x^2 - 1)).\n\nSo, the derivative of the original function is the sum of the derivatives of the two terms, which is -1/(|x|sqrt(x^2 - 1)) - 1/(x*sqrt(1/x^2 - 1)).\n\nTherefore, the derivative of f(x) = csc^-1(x) + csc^-1(1/x) is f'(x) = -1/(|x|sqrt(x^2 - 1)) - 1/(x*sqrt(1/x^2 - 1)).",
@@ -180,7 +180,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 33,
+        "GenNo.": "8 - 3",
         "Problem": "Find the derivative of the function. Simplify where possible. g(t) = sin^-1(t) + sin^-1(1/t)",
         "Answer": "1/√(1-t^2) - 1/(t^2√(1-(1/t)^2))",
         "Solution": "Solution:\n\nTo solve this problem, we need to use the chain rule for differentiation and the derivative formula for inverse sine. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. The derivative of inverse sine of x is 1/√(1-x^2).\n\nStep 1: Differentiate the first term, sin^-1(t). \nUsing the derivative formula for inverse sine, we get: \ng'(t) = 1/√(1-t^2)\n\nStep 2: Differentiate the second term, sin^-1(1/t). \nAgain using the derivative formula for inverse sine, we get: \ng'(1/t) = 1/√(1-(1/t)^2)\n\nHowever, we must also apply the chain rule here, because we have a composite function. The derivative of 1/t is -1/t^2. So, the derivative of sin^-1(1/t) is: \n-1/(t^2√(1-(1/t)^2))\n\nStep 3: Combine the two derivatives to get the derivative of the entire function. \ng'(t) = 1/√(1-t^2) - 1/(t^2√(1-(1/t)^2))\n\nSo, the derivative of the function g(t) = sin^-1(t) + sin^-1(1/t) is g'(t) = 1/√(1-t^2) - 1/(t^2√(1-(1/t)^2)).",
@@ -188,7 +188,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 34,
+        "GenNo.": "8 - 4",
         "Problem": "Find the derivative of the function. Simplify where possible. f(x) = sec^-1(x) + sec^-1(1/x)",
         "Answer": "1/xsqrt(x^2-1) - 1/sqrt(1-x^2)",
         "Solution": "Solution:\n\nThe problem is asking for the derivative of the function f(x) = sec^-1(x) + sec^-1(1/x).\n\nFirst, we need to understand that the derivative of the inverse secant function sec^-1(x) is 1/(|x|sqrt(x^2 - 1)).\n\nSo, the derivative of f(x) = sec^-1(x) is f'(x) = 1/(|x|sqrt(x^2 - 1)).\n\nNext, we need to find the derivative of sec^-1(1/x) with respect to x. For this, we'll use the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nThe outer function in this case is sec^-1(u) and the inner function is 1/x. So, the derivative of sec^-1(1/x) is f'(u) * u'(x) = 1/(|u|sqrt(u^2 - 1)) * -1/x^2.\n\nSubstituting u = 1/x, we get the derivative as -1/(|x|sqrt((1/x)^2 - 1) * x^2) = -1/(|x|^3sqrt(1/x^2 - 1)).\n\nTherefore, the derivative of f(x) = sec^-1(x) + sec^-1(1/x) is f'(x) = 1/(|x|sqrt(x^2 - 1)) - 1/(|x|^3sqrt(1/x^2 - 1)).\n\nThis is the final answer.",
@@ -196,7 +196,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 35,
+        "GenNo.": "8 - 5",
         "Problem": "Find the derivative of the function. Simplify where possible. h(x) = cos^-1(x) + cos^-1(1/x)",
         "Answer": "-1/√(1-x^2) + 1/(x^2√(1-(1/x)^2))",
         "Solution": "Solution:\n\nStep 1: Recognize that we have two functions that need to be differentiated separately using the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nStep 2: Differentiate the first function, cos^-1(x). The derivative of cos^-1(x) is -1/√(1-x^2).\n\nStep 3: Differentiate the second function, cos^-1(1/x). This is a composite function, so we'll need to use the chain rule. The outer function is cos^-1(u) and the inner function is 1/x. The derivative of the outer function is -1/√(1-u^2) and the derivative of the inner function is -1/x^2.\n\nStep 4: Apply the chain rule to differentiate cos^-1(1/x). This gives us -1/√(1-(1/x)^2) * -1/x^2 = 1/(x^2√(1-(1/x)^2)).\n\nStep 5: Combine the derivatives of the two functions to get the derivative of the original function. This gives us h'(x) = -1/√(1-x^2) + 1/(x^2√(1-(1/x)^2)).\n\nAnswer: h'(x) = -1/√(1-x^2) + 1/(x^2√(1-(1/x)^2))",
@@ -204,7 +204,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 40,
+        "GenNo.": "9 - 1",
         "Problem": "Find the derivative of the function. Simplify where possible. y = tan^-1(sqrt((1-x)/(4+x)))",
         "Answer": "- 1/2sqrt((4+x)(1-x))",
         "Solution": "Solution:\n\nStep 1: Recognize the function as a composition of three functions: the inverse tangent function, the square root function, and the rational function. The derivative of a composition of functions can be found using the chain rule.\n\nStep 2: Apply the chain rule. The derivative of y with respect to x is dy/dx = (dy/du) * (du/dv) * (dv/dx), where u = sqrt((1-x)/(4+x)), v = (1-x)/(4+x), and y = tan^-1(u).\n\nStep 3: Find dy/du. The derivative of the inverse tangent function is 1/(1+u^2). So, dy/du = 1/(1+u^2).\n\nStep 4: Find du/dv. The derivative of the square root function is 1/(2*sqrt(v)). So, du/dv = 1/(2*sqrt(v)).\n\nStep 5: Find dv/dx. The derivative of the rational function is found using the quotient rule. The quotient rule states that the derivative of a quotient of two functions is the denominator times the derivative of the numerator minus the numerator times the derivative of the denominator, all divided by the square of the denominator. So, dv/dx = [-(4+x) - (1-x)]/((4+x)^2) = -2x/(4+x)^2.\n\nStep 6: Substitute dy/du, du/dv, and dv/dx into the chain rule formula to find dy/dx. dy/dx = [1/(1+u^2)] * [1/(2*sqrt(v))] * [-2x/(4+x)^2].\n\nStep 7: Substitute u and v back into the equation to get dy/dx in terms of x. dy/dx = [1/(1+((1-x)/(4+x)))^2] * [1/(2*sqrt((1-x)/(4+x)))] * [-2x/(4+x)^2].\n\nStep 8: Simplify the equation. After simplification, we get dy/dx = -x/(2(1+x)^2 * sqrt(4+x) * sqrt(1-x)).\n\nSo, the derivative of y = tan^-1(sqrt((1-x)/(4+x))) with respect to x is dy/dx = -x/(2(1+x)^2 * sqrt(4+x) * sqrt(1-x)).",
@@ -212,7 +212,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 41,
+        "GenNo.": "10 - 1",
         "Problem": "If f(3) = 4 and f'(3) = 1/2, find (f^(-1))'(4).",
         "Answer": "2",
         "Solution": "Solution:\n\nWe are given that f(3) = 4 and f'(3) = 1/2. We are asked to find the derivative of the inverse function at 4, denoted as (f^(-1))'(4).\n\nBy the Inverse Function Theorem, we know that the derivative of the inverse function at a point is the reciprocal of the derivative of the function at the corresponding point. In other words, if y = f(x), then (f^(-1))'(y) = 1 / f'(x).\n\nIn this case, we know that f(3) = 4, so the corresponding point for 4 in the inverse function is 3. Therefore, we can use the derivative of the function at this point to find the derivative of the inverse function at 4.\n\nSo, (f^(-1))'(4) = 1 / f'(3).\n\nWe are given that f'(3) = 1/2, so we substitute this into the equation to get (f^(-1))'(4) = 1 / (1/2).\n\nSolving this equation gives us (f^(-1))'(4) = 2.\n\nAnswer: (f^(-1))'(4) = 2.",
@@ -220,7 +220,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 42,
+        "GenNo.": "10 - 2",
         "Problem": "If f(5) = 6 and f'(5) = 3/4, find (f^(-1))'(6).",
         "Answer": "4/3",
         "Solution": "Solution:\n\nWe are given that f(5) = 6 and f'(5) = 3/4, and we are asked to find the derivative of the inverse function at 6, (f^(-1))'(6).\n\nWe know from the inverse function theorem that the derivative of the inverse function is the reciprocal of the derivative of the function at the corresponding point. Mathematically, this is represented as (f^(-1))'(b) = 1 / f'(a), where f(a) = b.\n\nIn this problem, we are given that f(5) = 6, so we can say that a = 5 and b = 6.\n\nTherefore, we can substitute these values into the formula to find (f^(-1))'(6) = 1 / f'(5).\n\nWe are given that f'(5) = 3/4, so we substitute this value into the formula to get (f^(-1))'(6) = 1 / (3/4).\n\nThis simplifies to (f^(-1))'(6) = 4/3.\n\nSo, the derivative of the inverse function at 6, (f^(-1))'(6), is 4/3. \n\nAnswer: (f^(-1))'(6) = 4/3.",
@@ -228,7 +228,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 43,
+        "GenNo.": "10 - 3",
         "Problem": "If f(2) = 7 and f'(2) = 1/3, find (f^(-1))'(7).",
         "Answer": "3",
         "Solution": "Solution:\n\nThe problem is asking for the derivative of the inverse function at a certain point. We know that the derivative of the inverse function can be found using the formula (f^(-1))'(x) = 1 / f'(f^(-1)(x)).\n\nWe are given that f(2) = 7 and f'(2) = 1/3. We can see that f^(-1)(7) = 2, because the inverse function undoes what the original function does. \n\nSo, we can substitute these values into the formula to find (f^(-1))'(7) = 1 / f'(f^(-1)(7)) = 1 / f'(2) = 1 / (1/3).\n\nThe derivative of the inverse function at the point 7 is therefore 3.\n\nAnswer: 3.",
@@ -236,7 +236,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 44,
+        "GenNo.": "10 - 4",
         "Problem": "If f(6) = 8 and f'(6) = 2/5, find (f^(-1))'(8).",
         "Answer": "5/2",
         "Solution": "Solution:\n\nWe know that (f^(-1))'(a) = 1/(f'(f^(-1)(a))). This is the formula for the derivative of the inverse of a function.\n\nGiven that f(6) = 8, we can say that f^(-1)(8) = 6. This is because the inverse function undoes the action of the original function.\n\nWe are also given that f'(6) = 2/5. This is the derivative of the function at the point where x = 6.\n\nSubstituting these values into the formula, we get (f^(-1))'(8) = 1/(f'(6)) = 1/(2/5) = 5/2.\n\nSo, (f^(-1))'(8) = 5/2. \n\nAnswer: 5/2.",
@@ -244,7 +244,7 @@
     },
     {
         "Ch.No.": "3.6",
-        "GenNo.": 45,
+        "GenNo.": "10 - 5",
         "Problem": "If f(7) = 9 and f'(7) = 3/7, find (f^(-1))'(9).",
         "Answer": "7/3",
         "Solution": "Solution:\n\nWe know that for a function f and its inverse function f^(-1), the derivative of the inverse function at a point is the reciprocal of the derivative of the original function at the corresponding point. This is given by the formula (f^(-1))'(x) = 1 / f'(f^(-1)(x)).\n\nIn this problem, we are asked to find (f^(-1))'(9). We know that f(7) = 9, so f^(-1)(9) = 7. \n\nWe also know that f'(7) = 3/7.\n\nSubstituting these values into the formula, we get (f^(-1))'(9) = 1 / f'(7) = 1 / (3/7) = 7/3.\n\nSo, (f^(-1))'(9) = 7/3. \n\nAnswer: 7/3",
@@ -252,7 +252,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 46,
+        "GenNo.": "11 - 1",
         "Problem": "Find the differential dy and evaluate dy for the given values of x and dx. y = e^(2x), x = 1, dx = 0.2",
         "Answer": "0.4e^2",
         "Solution": "Solution:\n\nFirst, we need to find the derivative of y = e^(2x). The derivative of e^(2x) is e^(2x) * 2, by the chain rule. So, dy/dx = 2e^(2x).\n\nNext, we substitute x = 1 into the derivative to get dy/dx = 2e^(2*1) = 2e^2.\n\nThe differential dy is defined as dy = (dy/dx) * dx. So, we substitute dx = 0.2 into the equation to get dy = 2e^2 * 0.2 = 0.4e^2.\n\nAnswer: The differential dy is 0.4e^2.",
@@ -260,7 +260,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 47,
+        "GenNo.": "11 - 2",
         "Problem": "Find the differential dy and evaluate dy for the given values of x and dx. y = e^(3x), x = 2, dx = 0.3",
         "Answer": "3e^6 * 0.3",
         "Solution": "To find the differential dy, we first need to take the derivative of y with respect to x. \n\nThe function y = e^(3x) is a composition of two functions: the exponential function and the function 3x. Therefore, we need to use the chain rule to find its derivative. The chain rule states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function. \n\nThe outer function is e^u, and its derivative is e^u. The inner function is 3x, and its derivative is 3. \n\nSo, by the chain rule, dy/dx = e^(3x) * 3 = 3e^(3x).\n\nNext, we use the definition of the differential dy, which is dy = (dy/dx) * dx. Substituting the expression we found for dy/dx, we get dy = 3e^(3x) * dx.\n\nFinally, we substitute the given values of x and dx into the expression for dy. We have x = 2 and dx = 0.3, so dy = 3e^(3*2) * 0.3 = 3e^6 * 0.3 = 0.9e^6.\n\nSo, the differential dy is 0.9e^6.",
@@ -268,7 +268,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 48,
+        "GenNo.": "11 - 3",
         "Problem": "Find the differential dy and evaluate dy for the given values of x and dx. y = e^(x/5), x = 3, dx = 0.4",
         "Answer": "0.08 * e^(0.6)",
         "Solution": "The differential dy is given by dy = f'(x)dx. \n\nFirst, we need to find the derivative of y = e^(x/5). \n\nTo do this, we use the chain rule for derivatives, which states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. \n\nIn this case, the outer function is e^u and its derivative is e^u. The inner function is x/5 and its derivative is 1/5. \n\nSo, the derivative of y = e^(x/5) is f'(x) = e^(x/5) * (1/5) = (1/5)e^(x/5).\n\nNow, we can find dy by substituting x = 3 and dx = 0.4 into the formula dy = f'(x)dx.\n\ndy = (1/5)e^(3/5) * 0.4 = (2/25)e^(3/5).\n\nTherefore, the differential dy for the given values of x and dx is (2/25)e^(3/5).",
@@ -276,7 +276,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 49,
+        "GenNo.": "11 - 4",
         "Problem": "Find the differential dy and evaluate dy for the given values of x and dx. y = e^(x/3), x = 4, dx = 0.5",
         "Answer": "(1/6) * e^(4/3)",
         "Solution": "Solution:\n\nStep 1: We start by finding the derivative of the function y = e^(x/3). This requires the chain rule, since we have a function of a function (e^u where u = x/3). \n\nStep 2: The derivative of e^u with respect to u is simply e^u. But by the chain rule, we multiply by the derivative of x/3 with respect to x, which is 1/3. Thus, the derivative of y with respect to x, denoted dy/dx or y', is (e^(x/3))*(1/3).\n\nStep 3: The differential dy is then given by dy = (dy/dx)*dx. Substituting the expression we found for dy/dx, we get dy = (e^(x/3))*(1/3)*dx.\n\nStep 4: Now we substitute the given values x = 4 and dx = 0.5 into this expression to find the numerical value of dy. \n\nSo, dy = (e^(4/3))*(1/3)*0.5.\n\nAnswer: dy = (e^(4/3))*(1/3)*0.5.",
@@ -284,7 +284,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 50,
+        "GenNo.": "11 - 5",
         "Problem": "Find the differential dy and evaluate dy for the given values of x and dx. y = e^(x/2), x = 5, dx = 0.6",
         "Answer": "0.3 * e^(5/2)",
         "Solution": "Solution:\n\nStep 1: First, we need to find the derivative of the function y = e^(x/2). The derivative of e^(x/2) is (1/2)e^(x/2) by using the chain rule (derivative of e^u is e^u times the derivative of u).\n\nStep 2: The differential dy is the derivative of y with respect to x, multiplied by dx. So, dy = (1/2)e^(x/2) * dx.\n\nStep 3: Now, we need to evaluate dy for the given values of x = 5 and dx = 0.6. Substituting these values into the equation from step 2, we get dy = (1/2)e^(5/2) * 0.6.\n\nStep 4: Simplify the equation to find the value of dy. \n\nAnswer: dy = (1/2)e^(5/2) * 0.6",
@@ -292,7 +292,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 51,
+        "GenNo.": "12 - 1",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number cube root(27.1).",
         "Answer": "811/270",
         "Solution": "Solution:\n\nStep 1: Identify the function\nThe function we are working with is f(x) = cube root(x). \n\nStep 2: Find the point of approximation\nWe are asked to find the cube root of 27.1. The cube root of a perfect cube near 27.1 is cube root(27) = 3. So, we will use 27 as the point of approximation.\n\nStep 3: Find the derivative of the function\nThe derivative of f(x) = cube root(x) is f'(x) = 1/(3*cube root(x^2)).\n\nStep 4: Calculate the derivative at the point of approximation\nSubstitute x = 27 into the derivative function to get f'(27) = 1/(3*sqrt(27^2)) = 1/(3*27) = 1/81.\n\nStep 5: Use the linear approximation formula\nThe linear approximation formula is L(x) = f(a) + f'(a)(x - a). Here, a is the point of approximation (27), f(a) is the function value at a (3), and f'(a) is the derivative at a (1/81). \n\nSubstitute these values into the formula to get L(x) = 3 + (1/81)(x - 27).\n\nStep 6: Estimate the given number\nSubstitute x = 27.1 into the linear approximation function to get L(27.1) = 3 + (1/81)(27.1 - 27) = 3 + 0.0012345679 = 3.0012345679.\n\nSo, the cube root of 27.1 is approximately 3.0012345679.\n\nAnswer: 3.0012345679.",
@@ -300,7 +300,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 52,
+        "GenNo.": "12 - 2",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number sqrt(49.7).",
         "Answer": "7.05",
         "Solution": "Solution:\n\nStep 1: Identify the function and the point of tangency\nThe function here is f(x) = sqrt(x) and the point of tangency we'll use is a = 49, because it's a perfect square close to 49.7.\n\nStep 2: Find the derivative of the function\nThe derivative of f(x) = sqrt(x) is f'(x) = 1/(2*sqrt(x)).\n\nStep 3: Evaluate the derivative at the point of tangency\nSubstitute a = 49 into the derivative, we get f'(49) = 1/(2*sqrt(49)) = 1/14.\n\nStep 4: Find the equation of the tangent line\nThe equation of the tangent line is L(x) = f(a) + f'(a)(x - a). Substituting the values we have, we get L(x) = sqrt(49) + 1/14 * (x - 49).\n\nStep 5: Use the linear approximation to estimate sqrt(49.7)\nSubstitute x = 49.7 into the equation of the tangent line, we get L(49.7) = sqrt(49) + 1/14 * (49.7 - 49).\n\nAfter simplifying, we get L(49.7) = 7 + 0.05 = 7.05.\n\nSo, the linear approximation of sqrt(49.7) is approximately 7.05. \n\nAnswer: 7.05",
@@ -308,7 +308,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 53,
+        "GenNo.": "12 - 3",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number cube root(64.2).",
         "Answer": "961/240",
         "Solution": "First, we need to find a function that we can use to approximate the cube root of 64.2. The function f(x) = x^(1/3) (the cube root of x) seems appropriate, and we know its derivative is f'(x) = (1/3)x^(-2/3).\n\nNext, we choose a number close to 64.2 that we can easily take the cube root of. The number 64 seems appropriate, since the cube root of 64 is 4.\n\nNow, we can use the formula for linear approximation, which is L(x) = f(a) + f'(a)(x - a), where a is the number we chose (64) and x is the number we're trying to estimate the cube root of (64.2).\n\nSubstituting the values we have:\n\nL(x) = f(64) + f'(64)(64.2 - 64)\n     = 64^(1/3) + (1/3) * 64^(-2/3) * (64.2 - 64)\n     = 4 + (1/3) * (1/16) * (0.2)\n     = 4 + 0.00416666666\n\nSo, the cube root of 64.2 is approximately 4 + 0.00416666666 = 4.00416666666.\n\nNow, we convert the decimal to a fraction for the final answer. The decimal 0.00416666666 is approximately 1/240 when converted to a fraction. \n\nSo, the cube root of 64.2 is approximately 4 + 1/240 = 961/240.",
@@ -316,7 +316,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 54,
+        "GenNo.": "12 - 4",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number sqrt(121.3).",
         "Answer": "2423/220",
         "Solution": "The function we'll use for this problem is f(x) = sqrt(x), and we'll center our linear approximation at a = 121 because it's the perfect square closest to 121.3. \n\nFirst, we need to find the derivative of f(x) = sqrt(x), which is f'(x) = 1/(2sqrt(x)). \n\nThen, we substitute a = 121 into f'(x) to find the slope of the tangent line at the point (a, f(a)), which is f'(121) = 1/(2sqrt(121)) = 1/22. \n\nThe equation of the tangent line is then L(x) = f(a) + f'(a)(x - a) = sqrt(121) + 1/22 * (x - 121). \n\nWe plug in x = 121.3 into L(x) to find the linear approximation of sqrt(121.3), which is L(121.3) = sqrt(121) + 1/22 * (121.3 - 121) = 11 + 1/22 * 0.3 = 11 + 0.3/22 = 11 + 3/220 = 11 + 1/73.33.\n\nWe simplify the fraction 1/73.33 by multiplying the numerator and denominator by 3 to get 3/220. \n\nSo, the linear approximation of sqrt(121.3) is 11 + 3/220.\n\nAnswer: 11 + 3/220.",
@@ -324,7 +324,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 55,
+        "GenNo.": "12 - 5",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number cube root(125.8).",
         "Answer": "1879/375",
         "Solution": "The given function is the cube root of x, which is f(x) = x^(1/3).\n\nThe derivative of f(x) = x^(1/3) is f'(x) = (1/3)x^(-2/3).\n\nWe need to find a number that is close to 125.8 whose cube root we can easily find. The cube root of 125 is 5, so we'll take x = 125 as the point around which to approximate.\n\nWe'll use Δx = 125.8 - 125 = 0.8.\n\nNow, we'll find f'(x) at x = 125. \n\nf'(125) = (1/3)*(125)^(-2/3) = 1/75.\n\nThe linear approximation formula is Δf ≈ f'(x)Δx.\n\nSubstituting the values:\n\nΔf ≈ (1/75)*0.8 = 4/375.\n\nSo, the cube root of 125.8 is approximately the cube root of 125 plus Δf, which is 5 + 4/375.",
@@ -332,7 +332,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 56,
+        "GenNo.": "13 - 1",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number sin(31 * pi/180)",
         "Answer": "1/2 + sqrt(3)*pi/360",
         "Solution": "Solution:\n\nStep 1: We know that sin(x) is approximately equal to x when x is near 0. This is because the tangent line to the graph of y = sin(x) at x = 0 is y = x. \n\nStep 2: We convert 31 degrees to radians by multiplying by pi/180. This gives us 31*pi/180 radians.\n\nStep 3: Now we need to find a value close to 31*pi/180 that we can easily compute the sine of. The closest value we know the sine of is pi/6, which is approximately 30*pi/180.\n\nStep 4: We can use the linear approximation formula, which is f(x) ≈ f(a) + f'(a)(x - a), where f(x) is the function we're approximating, a is the point we're approximating around, and f'(x) is the derivative of the function.\n\nStep 5: In this case, f(x) = sin(x), a = pi/6, and f'(x) = cos(x). So, we have sin(x) ≈ sin(pi/6) + cos(pi/6)(x - pi/6).\n\nStep 6: We substitute x = 31*pi/180 into the approximation. We get sin(31*pi/180) ≈ sin(pi/6) + cos(pi/6)(31*pi/180 - pi/6).\n\nStep 7: We know that sin(pi/6) = 1/2 and cos(pi/6) = sqrt(3)/2. So, sin(31*pi/180) ≈ 1/2 + sqrt(3)/2 * (31*pi/180 - pi/6).\n\nStep 8: Simplifying the right side gives us the approximation for sin(31*pi/180).\n\nSo, sin(31*pi/180) is approximately equal to 1/2 + sqrt(3)/2 * (31*pi/180 - pi/6). \n\nAnswer: sin(31*pi/180) ≈ 1/2 + sqrt(3)/2 * (31*pi/180 - pi/6)",
@@ -340,7 +340,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 57,
+        "GenNo.": "13 - 2",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number cos(44 * pi/180)",
         "Answer": "√2/2 * (1 - pi/180)",
         "Solution": "To estimate cos(44 * pi/180), we can use a linear approximation by approximating the function near a known point. The point we'll use for approximation is pi/4 because that's a familiar value for cosine and it's near 44*pi/180. \n\nFirst, we need to find the derivative of cosine, which is -sin(x). \n\nThe linear approximation formula is:\n\nf(a + Δx) ≈ f(a) + f'(a) * Δx\n\nThe value we're approximating is cos(44 * pi/180), which is equivalent to cos(pi/4 + Δx) with Δx = 44*pi/180 - pi/4.\n\nLet's calculate Δx:\nΔx = 44*pi/180 - pi/4 \n= pi/4 - 11*pi/45 \n= (45 - 44)pi/180 \n= pi/180\n\nNow, we will substitute a = pi/4, f(a) = cos(pi/4), f'(a) = -sin(pi/4), and Δx = pi/180 into the linear approximation formula:\n\nf(a + Δx) ≈ f(a) + f'(a) * Δx\n≈ cos(pi/4) - sin(pi/4) * (pi/180)\n= √2/2 - (√2/2) * (pi/180)\n= √2/2 * (1 - pi/180)\n\nSo, the approximation of cos(44 * pi/180) is √2/2 * (1 - pi/180).",
@@ -348,7 +348,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 58,
+        "GenNo.": "13 - 3",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number tan(57 * pi/180)",
         "Answer": "sqrt(3) - pi/15",
         "Solution": "Firstly, we can write the given number in the format of the function as tan(x), where x = 57 * pi/180.\n\nWe can take the point close to x = 57 * pi/180, which is x = pi/3 because we know the value of tan(pi/3) = sqrt(3).\n\nThe formula for the linear approximation is:\n\nL(x) = f(a) + f'(a)(x - a)\n\nwhere f(x) = tan(x), a = pi/3, and x = 57 * pi/180.\n\nThe derivative of f(x) = tan(x) is f'(x) = sec^2(x).\n\nSo, the derivative at the given point is f'(pi/3) = sec^2(pi/3) = 4.\n\nNow, we can substitute these values into the linear approximation formula:\n\nL(57 * pi/180) = tan(pi/3) + 4 * (57 * pi/180 - pi/3)\n\nSimplify the expression:\n\nL(57 * pi/180) = sqrt(3) + (4 * (57 * pi - 60 * pi) / 540)\n\nL(57 * pi/180) = sqrt(3) - (12 * pi / 180)\n\nFurther simplifying the expression:\n\nL(57 * pi/180) = sqrt(3) - (pi / 15)\n\nSo, the approximate value of tan(57 * pi/180) is sqrt(3) - pi/15.",
@@ -356,7 +356,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 59,
+        "GenNo.": "13 - 4",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number sin(23 * pi/180)",
         "Answer": "1/2 - 7sqrt(3)*pi/360",
         "Solution": "Solution:\n\nStep 1: Convert the angle from degrees to radians. We know that pi radians = 180 degrees. Hence, 23 * pi/180 radians = 23/180 * pi radians = 0.4pi radians approximately.\n\nStep 2: We know that the linear approximation of a function f at a point x=a is given by f(a) + f'(a)(x - a). We want to approximate sin(x) near x = pi/4 because pi/4 is the closest standard angle to 0.4pi for which we know the sine value. \n\nStep 3: We know that sin(pi/4) = sqrt(2)/2 and the derivative of sin(x) is cos(x). So, cos(pi/4) = sqrt(2)/2.\n\nStep 4: Now, we can use the linear approximation formula. Let f(x) = sin(x), a = pi/4, and x = 0.4pi. Then the linear approximation of sin(0.4pi) is sin(pi/4) + cos(pi/4)(0.4pi - pi/4) = sqrt(2)/2 + sqrt(2)/2 * (0.4pi - pi/4).\n\nStep 5: Simplify the expression to get the final answer. sqrt(2)/2 + sqrt(2)/2 * (0.4pi - pi/4) = sqrt(2)/2 + sqrt(2)/2 * (0.1pi) = sqrt(2)/2 + 0.1pi*sqrt(2)/2 = 0.707 + 0.1*0.707 = 0.707 + 0.0707 = 0.7777 approximately.\n\nSo, sin(23 * pi/180) is approximately 0.7777.",
@@ -364,7 +364,7 @@
     },
     {
         "Ch.No.": "3.10",
-        "GenNo.": 60,
+        "GenNo.": "13 - 5",
         "Problem": "Use a linear approximation (or differentials) to estimate the given number cos(37 * pi/180)",
         "Answer": "sqrt(3)/2 - 7*pi/360",
         "Solution": "Solution:\n\nStep 1: We know that cos(x) is approximately equal to 1 - (x^2)/2 for small values of x. This is the linear approximation for cos(x) near x = 0.\n\nStep 2: We need to convert the angle 37 degrees to radians since the approximation is valid for radian measures. We know that pi radians is equal to 180 degrees, so 37 degrees is equal to 37 * pi/180 radians.\n\nStep 3: Substituting x = 37 * pi/180 into the approximation, we get cos(37 * pi/180) ≈ 1 - ((37 * pi/180)^2)/2.\n\nStep 4: Simplifying, we get cos(37 * pi/180) ≈ 1 - (37^2 * pi^2)/(2 * 180^2).\n\nStep 5: Calculating the numerical value, we get cos(37 * pi/180) ≈ 1 - (1369 * 9.8696)/(64800) ≈ 1 - 0.20943951 ≈ 0.79056049.\n\nSo, the linear approximation of cos(37 * pi/180) is approximately 0.79056049.",
@@ -372,7 +372,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 61,
+        "GenNo.": "15 - 1",
         "Problem": "Find the derivative of y = cosh(tanh(x)). Simplify y if it is possible.",
         "Answer": "sinh(tanh(x)) * sech^2(x)",
         "Solution": "Solution:\n\nTo solve this problem, we'll use the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. \n\nFirst, let's identify our outer and inner functions. In this case, the outer function is y = cosh(u) and the inner function is u = tanh(x).\n\nThe derivative of the outer function, cosh(u), is sinh(u). The derivative of the inner function, tanh(x), is sech^2(x).\n\nApplying the chain rule, we get:\n\ndy/dx = dy/du * du/dx\n\nSubstituting the derivatives of our outer and inner functions, we get:\n\ndy/dx = sinh(u) * sech^2(x)\n\nBut remember, u = tanh(x), so we substitute tanh(x) back in for u:\n\ndy/dx = sinh(tanh(x)) * sech^2(x)\n\nThis is the derivative of y = cosh(tanh(x)).\n\nAnswer: dy/dx = sinh(tanh(x)) * sech^2(x)",
@@ -380,7 +380,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 62,
+        "GenNo.": "15 - 2",
         "Problem": "Find the derivative of y = sinh(cosh(x)). Simplify y if it is possible.",
         "Answer": "cosh(cosh(x)) * sinh(x)",
         "Solution": "Solution:\n\nTo find the derivative of y = sinh(cosh(x)), we will use the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nHere, the outer function is sinh(u) and the inner function is cosh(x). \n\nThe derivative of sinh(u) with respect to u is cosh(u) and the derivative of cosh(x) with respect to x is sinh(x).\n\nApplying the chain rule, we get:\n\ndy/dx = (dy/du) * (du/dx)\n\n= cosh(u) * sinh(x)\n\nBut we know that u = cosh(x), so substituting this back in gives:\n\ndy/dx = cosh(cosh(x)) * sinh(x)\n\nSo, the derivative of y = sinh(cosh(x)) is dy/dx = cosh(cosh(x)) * sinh(x).",
@@ -388,7 +388,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 63,
+        "GenNo.": "15 - 3",
         "Problem": "Find the derivative of y = tanh(sech(x)). Simplify y if it is possible.",
         "Answer": "-sech^2(sech(x)) * sech(x)tanh(x)",
         "Solution": "To find the derivative of y = tanh(sech(x)), we'll use the chain rule which states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. \n\nFirst, let's simplify y if it is possible. However, tanh(sech(x)) cannot be simplified further.\n\nSecond, let's identify our inner and outer functions:\n\n- Our outer function is tanh(u) and its derivative is sech^2(u).\n- Our inner function is sech(x) and its derivative is -sech(x)tanh(x).\n\nNow, let's take the derivative using the chain rule:\n\ndy/dx = (derivative of outer function)*(derivative of inner function) \n      = sech^2(sech(x))*(-sech(x)tanh(x))",
@@ -396,7 +396,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 64,
+        "GenNo.": "15 - 4",
         "Problem": "Find the derivative of y = sech(cosh(x)). Simplify y if it is possible.",
         "Answer": "-sech(cosh(x))*tanh(cosh(x)) * sinh(x)",
         "Solution": "Solution:\n\nStep 1: Identify the outer function and the inner function.\nIn this case, the outer function is y = sech(u) and the inner function is u = cosh(x).\n\nStep 2: Find the derivative of the outer function.\nThe derivative of sech(u) is -sech(u)*tanh(u).\n\nStep 3: Find the derivative of the inner function.\nThe derivative of cosh(x) is sinh(x).\n\nStep 4: Apply the chain rule.\nThe chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. So, the derivative of y = sech(cosh(x)) is dy/dx = -sech(u)*tanh(u) * sinh(x).\n\nStep 5: Substitute u = cosh(x) back into the equation.\nSo, dy/dx = -sech(cosh(x))*tanh(cosh(x)) * sinh(x).\n\nStep 6: Simplify the equation if possible.\nIn this case, the equation cannot be simplified further.\n\nSo, the derivative of y = sech(cosh(x)) is dy/dx = -sech(cosh(x))*tanh(cosh(x)) * sinh(x).",
@@ -404,7 +404,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 65,
+        "GenNo.": "15 - 5",
         "Problem": "Find the derivative of y = cosh(sech(x)). Simplify y if it is possible.",
         "Answer": "-sinh(sech(x)) * sech(x)tanh(x)",
         "Solution": "Solution:\n\nTo find the derivative of y = cosh(sech(x)), we have to use the chain rule. The chain rule is a formula to compute the derivative of a composite function. In our case, our composite function is cosh(sech(x)). \n\nThe chain rule states that the derivative of a composite function is the derivative of the outside function times the derivative of the inside function. \n\nLet's break it down:\n\n1. The outside function is cosh(u) and its derivative is sinh(u).\n2. The inside function is sech(x) and its derivative is -sech(x) * tanh(x).\n\nApplying the chain rule, we have:\n\ndy/dx = sinh(sech(x)) * -sech(x) * tanh(x).",
@@ -412,7 +412,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 66,
+        "GenNo.": "16 - 1",
         "Problem": "Find the derivative of y = sinh^(-1)(csc(x)), 0<=x<=pi/2. Simplify y if it is possible.",
         "Answer": "- cot(x)/sqrt(1+sin^2(x))",
         "Solution": "Solution:\n\nWe need to find the derivative of y = sinh^(-1)(csc(x)).\n\nFirst, let's simplify y. The hyperbolic sine inverse function sinh^(-1)(x) is equivalent to ln(x + sqrt(x^2 + 1)). Therefore, we can rewrite y as:\n\ny = ln(csc(x) + sqrt(csc^2(x) + 1))\n\nNow, let's find the derivative of y with respect to x. We'll use the chain rule, which states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nSo, we have:\n\ny' = 1/(csc(x) + sqrt(csc^2(x) + 1)) * (csc(x) + sqrt(csc^2(x) + 1))'\n\nNow, let's find the derivative of the inner function. The derivative of csc(x) is -csc(x)cot(x), and the derivative of sqrt(csc^2(x) + 1) is 1/2sqrt(csc^2(x) + 1) * 2csc(x)*(-csc(x)cot(x)).\n\nTherefore, we have:\n\n(csc(x) + sqrt(csc^2(x) + 1))' = -csc(x)cot(x) - csc^2(x)cot(x)/sqrt(csc^2(x) + 1)\n\nSubstituting this back into the expression for y', we get:\n\ny' = 1/(csc(x) + sqrt(csc^2(x) + 1)) * (-csc(x)cot(x) - csc^2(x)cot(x)/sqrt(csc^2(x) + 1))\n\nThis is the derivative of y = sinh^(-1)(csc(x)).\n\nAnswer: y' = 1/(csc(x) + sqrt(csc^2(x) + 1)) * (-csc(x)cot(x) - csc^2(x)cot(x)/sqrt(csc^2(x) + 1))",
@@ -420,7 +420,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 67,
+        "GenNo.": "16 - 2",
         "Problem": "Find the derivative of y = cosh^(-1)(cos(x)), 0<=x<=pi/2. Simplify y if it is possible.",
         "Answer": "-1/sqrt(cos^2(x)-1) * sin(x)",
         "Solution": "Solution:\n\nStep 1: We first need to simplify y. We know that cosh^(-1)(x) is the inverse hyperbolic cosine function, which is defined as cosh^(-1)(x) = ln(x + sqrt(x^2 - 1)). However, since we are dealing with cos(x) instead of x, we have y = cosh^(-1)(cos(x)) = ln(cos(x) + sqrt(cos^2(x) - 1)).\n\nStep 2: Now, we need to find the derivative of y with respect to x. We will use the chain rule, which states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. Here, our outer function is ln(u) and our inner function is u = cos(x) + sqrt(cos^2(x) - 1).\n\nStep 3: The derivative of ln(u) with respect to u is 1/u. So, the derivative of the outer function is 1/(cos(x) + sqrt(cos^2(x) - 1)).\n\nStep 4: Now, we need to find the derivative of the inner function with respect to x. The derivative of cos(x) with respect to x is -sin(x). The derivative of sqrt(u) with respect to u is 1/(2sqrt(u)), so the derivative of sqrt(cos^2(x) - 1) with respect to x is cos(x)*(-sin(x))/(2sqrt(cos^2(x) - 1)) = -sin(x)cos(x)/sqrt(cos^2(x) - 1).\n\nStep 5: So, the derivative of the inner function with respect to x is -sin(x) + -sin(x)cos(x)/sqrt(cos^2(x) - 1).\n\nStep 6: Therefore, the derivative of y with respect to x is the product of the derivatives of the outer and inner functions, which is (1/(cos(x) + sqrt(cos^2(x) - 1)))*(-sin(x) + -sin(x)cos(x)/sqrt(cos^2(x) - 1)).\n\nStep 7: Simplifying this expression, we get dy/dx = -sin(x)/(cos(x) + sqrt(cos^2(x) - 1)) - sin(x)cos(x)/(cos(x) + sqrt(cos^2(x) - 1))*sqrt(cos^2(x) - 1).\n\nAnswer: dy/dx = -sin(x)/(cos(x) + sqrt(cos^2(x) - 1)) - sin(x)cos(x)/(cos(x) + sqrt(cos^2(x) - 1))*sqrt(cos^2(x) - 1).",
@@ -428,7 +428,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 68,
+        "GenNo.": "16 - 3",
         "Problem": "Find the derivative of y = tanh^(-1)(sin(x)), 0<=x<=pi/2. Simplify y if it is possible.",
         "Answer": "sec(x)",
         "Solution": "Solution:\n\nTo find the derivative of y = tanh^(-1)(sin(x)), we will use the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nFirst, let's find the derivative of the outer function, which is tanh^(-1)(u). The derivative of tanh^(-1)(u) with respect to u is 1/(1-u^2).\n\nSo, the derivative of y = tanh^(-1)(sin(x)) with respect to x is (1/(1-sin^2(x))) * cos(x), where cos(x) is the derivative of the inner function sin(x).\n\nNow, we know that 1-sin^2(x) = cos^2(x) from the Pythagorean identity. So, we can simplify the derivative as (1/cos^2(x)) * cos(x) = cos(x)/cos^2(x) = 1/cos(x) = sec(x), where sec(x) is the reciprocal of cos(x).\n\nTherefore, the derivative of y = tanh^(-1)(sin(x)) is sec(x) for 0<=x<=pi/2.\n\nAnswer: y' = sec(x)",
@@ -436,7 +436,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 69,
+        "GenNo.": "16 - 4",
         "Problem": "Find the derivative of y = cosh^(-1)(tan(x)), 0<=x<=pi/2. Simplify y if it is possible.",
         "Answer": "sec(x)/sqrt(sin^2(x)-cos^2(x))",
         "Solution": "Solution:\n\nFirst, we need to understand that cosh^(-1)(x) is the inverse hyperbolic cosine function, often denoted as arccosh(x). \n\nThe derivative of y = cosh^(-1)(tan(x)) can be found using the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.\n\nLet's denote u = tan(x) and v = cosh^(-1)(u). Then y = v and we want to find dy/dx = dv/du * du/dx.\n\nFirst, let's find dv/du. The derivative of the inverse hyperbolic cosine function is 1/√(u^2 - 1). So dv/du = 1/√(tan^2(x) - 1).\n\nNext, let's find du/dx. The derivative of tan(x) is sec^2(x). So du/dx = sec^2(x).\n\nNow, we can find dy/dx = dv/du * du/dx = (1/√(tan^2(x) - 1)) * sec^2(x).\n\nThis is the derivative of y = cosh^(-1)(tan(x)), but it's not simplified. \n\nTo simplify, we need to remember that sec^2(x) = 1 + tan^2(x). So we can replace sec^2(x) in the equation with 1 + tan^2(x).\n\nThen dy/dx = (1/√(tan^2(x) - 1)) * (1 + tan^2(x)).\n\nThis is the simplified derivative of y = cosh^(-1)(tan(x)).\n\nAnswer: dy/dx = (1/√(tan^2(x) - 1)) * (1 + tan^2(x)).",
@@ -444,7 +444,7 @@
     },
     {
         "Ch.No.": "3.11",
-        "GenNo.": 70,
+        "GenNo.": "16 - 5",
         "Problem": "Find the derivative of y = sinh^(-1)(sec(x)), 0<=x<=pi/2. Simplify y if it is possible.",
         "Answer": "tan(x)/sqrt(cos^2(x)+1)",
         "Solution": "Solution:\n\nStep 1: Identify the function\nThe function given is y = sinh^(-1)(sec(x)), which is a composite function. This means we will need to use the chain rule to find the derivative.\n\nStep 2: Understand the chain rule\nThe chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. In this case, the outer function is sinh^(-1)(x) and the inner function is sec(x).\n\nStep 3: Find the derivative of the outer function\nThe derivative of sinh^(-1)(x) is 1/√(1+x²). \n\nStep 4: Find the derivative of the inner function\nThe derivative of sec(x) is sec(x)tan(x).\n\nStep 5: Apply the chain rule\nBy applying the chain rule, we get dy/dx = (1/√(1+sec²(x))) * sec(x)tan(x).\n\nStep 6: Simplify the derivative\nWe know that sec²(x) = 1 + tan²(x), so we can substitute this into the derivative to simplify it:\n\ndy/dx = (1/√(1+1+tan²(x))) * sec(x)tan(x)\n       = (1/√(2+tan²(x))) * sec(x)tan(x)\n\nStep 7: Further simplification\nWe know that sec(x) = 1/cos(x) and tan(x) = sin(x)/cos(x), so we can substitute these into the derivative to simplify it further:\n\ndy/dx = (1/√(2+(sin²(x)/cos²(x)))) * (1/cos(x))(sin(x)/cos(x))\n       = (sin(x)/√(2cos²(x)+sin²(x)))\n\nSo, the derivative of y = sinh^(-1)(sec(x)) is dy/dx = sin(x)/√(2cos²(x)+sin²(x)).",
@@ -452,7 +452,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 76,
+        "GenNo.": "27 - 1",
         "Problem": "Find the derivative of the function h(x) = integral (u^2+2)/(u^2+1) du from x to 2x.",
         "Answer": "2*(4x^2+2)/(4x^2+1) - (x^2+2)/(x^2+1)",
         "Solution": "Solution:\n\nThe problem is asking for the derivative of a function that is defined as a definite integral. This is a perfect situation to apply the Leibniz Rule (also known as the Fundamental Theorem of Calculus part 1), which states that if a function h(x) is defined as an integral from a(x) to b(x) of a function f(t), then the derivative of h(x) is f(b(x))*b'(x) - f(a(x))*a'(x).\n\nIn this case, our function f(u) is (u^2+2)/(u^2+1), a(x) = x, and b(x) = 2x. So, we need to find f(a(x)), f(b(x)), a'(x), and b'(x).\n\nFirst, let's find f(a(x)) and f(b(x)):\nf(a(x)) = f(x) = (x^2+2)/(x^2+1)\nf(b(x)) = f(2x) = ((2x)^2+2)/((2x)^2+1) = (4x^2+2)/(4x^2+1)\n\nNext, let's find a'(x) and b'(x):\na'(x) = derivative of x = 1\nb'(x) = derivative of 2x = 2\n\nNow, we can substitute these values into the Leibniz Rule:\nh'(x) = f(b(x))*b'(x) - f(a(x))*a'(x) = ((4x^2+2)/(4x^2+1))*2 - ((x^2+2)/(x^2+1))*1\n\nThis simplifies to:\nh'(x) = 2*(4x^2+2)/(4x^2+1) - (x^2+2)/(x^2+1)\n\nSo, the derivative of the function h(x) = integral (u^2+2)/(u^2+1) du from x to 2x is h'(x) = 2*(4x^2+2)/(4x^2+1) - (x^2+2)/(x^2+1).",
@@ -460,7 +460,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 77,
+        "GenNo.": "27 - 2",
         "Problem": "Find the derivative of the function f(x) = integral (u^2-3)/(u^2+1) du from 3x to 4x.",
         "Answer": "4*(16x^2-3)/(16x^2+1) - 3*(9x^2-3)/(9x^2+1)",
         "Solution": "Solution:\n\nThe problem involves finding the derivative of a function that is defined by an integral. We can use the Fundamental Theorem of Calculus Part 1, which states that if a function f is continuous on the interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral from a to b of f(x) dx is equal to F(b) - F(a). \n\nHere, the function inside the integral is f(u) = (u^2 - 3)/(u^2 + 1). We are asked to find the derivative of the function defined by the integral of f(u) from 3x to 4x. \n\nBy the Fundamental Theorem of Calculus Part 1, the derivative of the integral from a(x) to b(x) of f(t) dt with respect to x is f(b(x)) * b'(x) - f(a(x)) * a'(x). \n\nApplying this to our function, we get:\n\nf'(x) = f(4x) * 4 - f(3x) * 3\n       = [(4x)^2 - 3]/[(4x)^2 + 1] * 4 - [(3x)^2 - 3]/[(3x)^2 + 1] * 3\n       = [16x^2 - 3]/[16x^2 + 1] * 4 - [9x^2 - 3]/[9x^2 + 1] * 3\n\nSo, the derivative of the given function is f'(x) = [16x^2 - 3]/[16x^2 + 1] * 4 - [9x^2 - 3]/[9x^2 + 1] * 3.",
@@ -468,7 +468,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 78,
+        "GenNo.": "27 - 3",
         "Problem": "Find the derivative of the function k(x) = integral (u^2+1)/(u^2+2) du from 2x to 3x.",
         "Answer": "3*(9x^2+1)/(9x^2+2) - 2*(4x^2+1)/(4x^2+2)",
         "Solution": "Solution:\n\nThe problem is asking for the derivative of a function that is defined as an integral. This is a classic example of a problem that can be solved using the Fundamental Theorem of Calculus Part 1, which states that if a function f is continuous on the interval [a, b] and F is an antiderivative of f on [a, b], then the integral from a to b of f(x) dx equals F(b) - F(a).\n\nHere, our function f(u) is (u^2+1)/(u^2+2) and the limits of integration are 2x and 3x. According to the Fundamental Theorem of Calculus, if we want to find the derivative of the integral of f from 2x to 3x, we simply need to evaluate f at 3x and 2x and subtract the two.\n\nSo, the derivative of k(x) with respect to x is:\n\nk'(x) = f(3x)*3 - f(2x)*2 = (3x^2+1)/(3x^2+2)*3 - (2x^2+1)/(2x^2+2)*2\n\nThis is the derivative of the function k(x). \n\nAnswer: k'(x) = (3x^2+1)/(3x^2+2)*3 - (2x^2+1)/(2x^2+2)*2",
@@ -476,7 +476,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 79,
+        "GenNo.": "27 - 4",
         "Problem": "Find the derivative of the function l(x) = integral (u^2-2)/(u^2+1) du from x to 3x.",
         "Answer": "3*(9x^2-2)/(9x^2+1) - (x^2-2)/(x^2+1)",
         "Solution": "Solution:\n\nThe problem involves finding the derivative of a function that is defined as a definite integral. The limits of the integral are functions of x, not constants. Therefore, we will use the Leibniz rule (also known as the Fundamental Theorem of Calculus, Part 1) which states that the derivative of an integral of a function with respect to its limits is just the function evaluated at these limits times the derivatives of the limits.\n\nThe Leibniz rule is written as follows:\n\nd/dx ∫[a(x), b(x)] f(t) dt = f(b(x)) * b'(x) - f(a(x)) * a'(x)\n\nIn our case, the function f(u) is (u^2-2)/(u^2+1), the lower limit a(x) is x, and the upper limit b(x) is 3x. \n\nFirst, we need to find the derivatives of the limits: a'(x) = 1 and b'(x) = 3.\n\nNext, we substitute the limits into the function f(u):\n\nf(a(x)) = f(x) = (x^2-2)/(x^2+1)\n\nf(b(x)) = f(3x) = ((3x)^2-2)/((3x)^2+1) = (9x^2-2)/(9x^2+1)\n\nNow, we can apply the Leibniz rule:\n\nl'(x) = f(b(x)) * b'(x) - f(a(x)) * a'(x) = (9x^2-2)/(9x^2+1) * 3 - (x^2-2)/(x^2+1) * 1\n\nSo, the derivative of the function l(x) is l'(x) = 3*(9x^2-2)/(9x^2+1) - (x^2-2)/(x^2+1).",
@@ -484,7 +484,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 80,
+        "GenNo.": "27 - 5",
         "Problem": "Find the derivative of the function m(x) = integral (u^2+3)/(u^2+1) du from 3x to 5x.",
         "Answer": "5*(25x^2+3)/(5x^2+1) - 3*(9x^2+3)/(9x^2+1)",
         "Solution": "Solution:\n\nTo solve this problem, we will use the Fundamental Theorem of Calculus Part 1, which states that if a function f is continuous over the interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral of f from a to b is F(b) - F(a).\n\nFirst, let's denote the integrand function as f(u) = (u^2 + 3)/(u^2 + 1). \n\nThen, we can rewrite m(x) as m(x) = F(5x) - F(3x), where F(u) is an antiderivative of f(u).\n\nThe derivative of m(x) with respect to x, denoted as m'(x), can be found using the Chain Rule, which states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function.\n\nApplying the Chain Rule, we get:\n\nm'(x) = F'(5x) * 5 - F'(3x) * 3\n\nBut since F'(u) = f(u) by definition, we can substitute f(u) back into the equation:\n\nm'(x) = f(5x) * 5 - f(3x) * 3\n\nFinally, substituting the original function f(u) = (u^2 + 3)/(u^2 + 1) back into the equation, we get:\n\nm'(x) = 5 * (25x^2 + 3)/(25x^2 + 1) - 3 * (9x^2 + 3)/(9x^2 + 1)\n\nThis is the derivative of the function m(x).",
@@ -492,7 +492,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 81,
+        "GenNo.": "28 - 1",
         "Problem": "If f(x) = integral sqrt(1+t^2)dt from 0 to cosx and g(y) = integral f(x) from 2 to y. Find g''(pi/4)",
         "Answer": "- sqrt(3)/2",
         "Solution": "Solution:\n\nFirstly, we need to find the derivative of f(x) using the Fundamental Theorem of Calculus. According to this theorem, if a function f(x) is defined as an integral from a to x of some function, then the derivative of f(x) is just that function. So, f'(x) = sqrt(1+cos^2x) * -sinx (the derivative of the upper limit of the integral, cosx, with respect to x is -sinx).\n\nNext, we need to find the derivative of g(y). Again using the Fundamental Theorem of Calculus, we get g'(y) = f(y). \n\nNow, we need to find the second derivative of g(y), which is g''(y) = f'(y). Substituting the value of f'(x) we found earlier, we get g''(y) = sqrt(1+cos^2y) * -siny.\n\nFinally, we substitute y = pi/4 into g''(y) to find g''(pi/4). So, g''(pi/4) = sqrt(1+cos^2(pi/4)) * -sin(pi/4) = sqrt(1+1/2) * -1/sqrt(2) = -sqrt(3/2) / sqrt(2) = -sqrt(3/4) = -sqrt(3)/2.\n\nSo, g''(pi/4) = -sqrt(3)/2.",
@@ -500,7 +500,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 82,
+        "GenNo.": "28 - 2",
         "Problem": "If f(x) = integral sqrt(1+t^2)dt from 0 to cosx and g(y) = integral f(x) from 2 to y. Find g''(pi/3)",
         "Answer": "-2sqrt(2)/4",
         "Solution": "Solution:\n\nFirst, find f'(x) using the Fundamental Theorem of Calculus Part 1:\n\nf'(x) = sqrt(1+cos^2x)\n\nThen, find g'(y) using the Fundamental Theorem of Calculus Part 1:\n\ng'(y) = f(y) = integral sqrt(1+t^2)dt from 0 to cosy\n\nFinally, find g''(y) by taking the derivative of g'(y):\n\ng''(y) = f'(y) * -sin(y)\n\nSubstitute y = pi/3 into g''(y) to find the final answer.",
@@ -508,7 +508,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 83,
+        "GenNo.": "28 - 3",
         "Problem": "If h(x) = integral (1+t^3)dt from 0 to tanx and j(y) = integral h(x) from 1 to y. Find j''(pi/4)",
         "Answer": "4",
         "Solution": "Solution:\n\nFirst, find h'(x) using the Fundamental Theorem of Calculus Part 1:\n\nh'(x) = 1+tan^3x * sec^2x\n\nThen, find j'(y) using the Fundamental Theorem of Calculus Part 1:\n\nj'(y) = h(y) = integral (1+t^3)dt from 0 to tany\n\nFinally, find j''(y) by taking the derivative of j'(y):\n\nj''(y) = h'(y) * sec^2(y)\n\nSubstitute y = pi/4 into j''(y) to find the final answer.",
@@ -516,7 +516,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 84,
+        "GenNo.": "28 - 4",
         "Problem": "If p(x) = integral (1+2t^2)dt from 0 to sin2x and q(y) = integral p(x) from 0 to y. Find q''(pi/2)",
         "Answer": "-2",
         "Solution": "Solution:\n\n\n\nFirst, find p'(x) using the Fundamental Theorem of Calculus Part 1:\n\np'(x) = 1+2sin^2(2x) * 2cos(2x)\n\nThen, find q'(y) using the Fundamental Theorem of Calculus Part 1:\n\nq'(y) = p(y) = integral (1+2t^2)dt from 0 to sin2y\n\nFinally, find q''(y) by taking the derivative of q'(y):\n\nq''(y) = p'(y) * 2cos(2y)\n\nSubstitute y = pi/2 into q''(y) to find the final answer.",
@@ -524,7 +524,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 85,
+        "GenNo.": "28 - 5",
         "Problem": "If f(x) = integral sqrt(1+t^2)dt from 0 to sin2x and g(y) = integral f(x) from 3 to y. Find g''(pi/6)",
         "Answer": "sqrt(7)/2",
         "Solution": "Solution:\n\nFirst, let's find the derivative of f(x). By the Fundamental Theorem of Calculus, if we have a function defined by an integral with a variable upper limit, the derivative of that function with respect to that variable is just the integrand evaluated at the upper limit. So, f'(x) = sqrt(1+sin^2(2x)) * derivative of sin2x = 2cos(2x)sqrt(1+sin^2(2x)).\n\nNext, we find the derivative of g(y). Again using the Fundamental Theorem of Calculus, we find that g'(y) = f(y). \n\nNow, to find g''(y), we need to take the derivative of g'(y) = f(y). But we know that f(y) = f'(y) = 2cos(2y)sqrt(1+sin^2(2y)). So, g''(y) = f'(y) = 2cos(2y)sqrt(1+sin^2(2y)).\n\nFinally, we substitute y = pi/6 into g''(y) to find g''(pi/6) = 2cos(pi/3)sqrt(1+sin^2(pi/3)).\n\nAnswer: g''(pi/6) = 2cos(pi/3)sqrt(1+sin^2(pi/3)).",
@@ -532,7 +532,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 86,
+        "GenNo.": "29 - 1",
         "Problem": "Use L'Hospital's Rule to evaluate the limit of (1/x^2) * integral (3t^2)/(t^3+1)dt from 0 to x where x goes to 0.",
         "Answer": "0",
         "Solution": "Solution:\n\nStep 1: The problem is asking us to evaluate the limit of a function that involves an integral. The function is of the form 0/0 when x goes to 0, so we can use L'Hospital's Rule.\n\nStep 2: L'Hospital's Rule states that the limit of a function of the form 0/0 or ∞/∞ can be found by taking the derivative of the numerator and the derivative of the denominator separately and then finding the limit of the ratio of these two derivatives.\n\nStep 3: The derivative of the numerator, which is the integral from 0 to x of (3t^2)/(t^3+1) dt, with respect to x is (3x^2)/(x^3+1) by the Fundamental Theorem of Calculus.\n\nStep 4: The derivative of the denominator, which is 1/x^2, with respect to x is -2/x^3.\n\nStep 5: So, the limit as x goes to 0 of the original function is the same as the limit as x goes to 0 of the ratio of the two derivatives, which is [(3x^2)/(x^3+1)] / [-2/x^3].\n\nStep 6: Simplifying this expression gives us -3x^5/2(x^3+1).\n\nStep 7: Now, we can find the limit as x goes to 0 of this expression. As x goes to 0, the numerator goes to 0 and the denominator goes to 2, so the limit is 0.\n\nAnswer: The limit of (1/x^2) * integral (3t^2)/(t^3+1)dt from 0 to x as x goes to 0 is 0.",
@@ -540,7 +540,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 87,
+        "GenNo.": "29 - 2",
         "Problem": "Use L'Hospital's Rule to evaluate the limit of (1/x^2) * integral (3t)/(sqrt(t^3+1))dt from 0 to x where x goes to 0.",
         "Answer": "3/2",
         "Solution": "First, we need to rewrite the expression in a form that we can apply L'Hospital's Rule. The limit as x goes to 0 of (1/x^2) * integral (3t)/(sqrt(t^3+1))dt from 0 to x can be written as the limit as x goes to 0 of (integral (3t)/(sqrt(t^3+1))dt from 0 to x)/x^2.\n\nNow, we can apply L'Hospital's Rule: the limit as x goes to 0 of a ratio of functions is equal to the limit as x goes to 0 of the ratio of their derivatives, provided the limit of the denominator is not zero.\n\nSo, we need to compute the derivative of the numerator and the derivative of the denominator.\n\nThe derivative of the integral from 0 to x of (3t)/(sqrt(t^3+1)) dt is just the integrand evaluated at x, by the Fundamental Theorem of Calculus. So, it is (3x)/(sqrt(x^3+1)).\n\nThe derivative of x^2 is 2x.\n\nSo, the limit as x goes to 0 of (1/x^2) * integral (3t)/(sqrt(t^3+1))dt from 0 to x is equal to the limit as x goes to 0 of [(3x)/(sqrt(x^3+1))]/2x.\n\nWe can simplify this to the limit as x goes to 0 of (3/2)*(1/sqrt(x^3+1)).\n\nAs x goes to 0, the denominator of the fraction within the limit goes to 1, so the limit is (3/2)*(1/1) = 3/2.\n\nSo, the limit of (1/x^2) * integral (3t)/(sqrt(t^3+1))dt from 0 to x as x goes to 0 is 3/2.",
@@ -548,7 +548,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 88,
+        "GenNo.": "29 - 3",
         "Problem": "Use L'Hospital's Rule to evaluate the limit of (1/x^3) * integral (3t^2)/(sqrt(t^2+1))dt from 0 to x where x goes to 0.",
         "Answer": "1",
         "Solution": "Chain of thoughts:\n\n1. First recognize that the problem is asking for the limit as x approaches 0. This is a classic case to use L'Hospital's Rule since it's in the form of 0/0 or ∞/∞. \n\n2. L'Hospital's rule states that the limit of a ratio of two functions, where both are either going to 0 or ∞, is the same as the limit of the ratio of their derivatives.\n\n3. The function at the numerator is an integral from 0 to x, so by the Fundamental Theorem of Calculus, its derivative will be the integrand evaluated at x. \n\n4. The derivative at the denominator is simply 3x^2.\n\nNow, let's perform these steps:\n\n- First, differentiate the numerator with respect to x using the Fundamental Theorem of Calculus. The derivative of the integral from 0 to x of f(t) dt is simply f(x). So, we get (3x^2)/(sqrt(x^2+1)).\n\n- Next, differentiate the denominator with respect to x. The derivative of x^3 is 3x^2.\n\n- Now that we have the derivatives of the numerator and the denominator, we can apply L'Hospital's Rule. This gives us the new limit:\n\nlim (x->0) (3x^2)/(sqrt(x^2+1)) / 3x^2 \n\n- We can simplify this expression by canceling out the 3x^2 from the numerator and denominator:\n\nlim (x->0) 1/(sqrt(x^2+1))\n\n- As x approaches 0, the expression inside the square root approaches 1, so the limit is 1/1, which equals 1.\n\nSo, the limit of {integral (3t^2)/(sqrt(t^2+1))dt from 0 to x} / x^3 as x approaches 0 is 1.",
@@ -556,7 +556,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 89,
+        "GenNo.": "29 - 4",
         "Problem": "Use L'Hospital's Rule to evaluate the limit of (1/x^2) * integral (2t)/(sqrt(t^2+1))dt from 0 to x where x goes to 0.",
         "Answer": "1",
         "Solution": "Solution:\n\nThe problem involves an indeterminate form of type 0/0. So, L'Hospital's rule can be applied.\n\nFirst, we express the limit as limit as x goes to 0 {integral (2t)/(sqrt(t^2+1))dt from 0 to x}/x^2.\n\nBy L'Hospital's Rule, this is equal to the limit as x goes to 0 of the derivative of the numerator divided by the derivative of the denominator.\n\nThe derivative of the denominator, x^2, is 2x.\n\nThe derivative of the integral from 0 to x of (2t)/(sqrt(t^2+1)) dt is just the integrand evaluated at x, by the Fundamental Theorem of Calculus. So it's (2x)/(sqrt(x^2+1)).\n\nSo, the original limit is equal to the limit as x goes to 0 of (2x)/(sqrt(x^2+1)) / 2x.\n\nThe 2x in the numerator and denominator cancel each other out, leaving us with the limit as x goes to 0 of 1/sqrt(x^2+1).\n\nAs x goes to 0, this becomes 1/sqrt(0+1), which simplifies to 1.\n\nSo, the original limit is 1. \n\nAnswer: 1.",
@@ -564,7 +564,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 90,
+        "GenNo.": "29 - 5",
         "Problem": "Use L'Hospital's Rule to evaluate the limit of (1/x^2) * integral (3t)/(sqrt(t^3+2))dt from 0 to x where x goes to 0.",
         "Answer": "3/2sqrt(2)",
         "Solution": "We are given the problem to evaluate the limit of the integral from 0 to x of (3t)/(sqrt(t^3+2)) dt divided by x^2 as x goes to 0. \n\nThe first step is to recognize that this is an indeterminate form of 0/0. In order to apply L'Hospital's rule, we need to take the derivative of the numerator and the derivative of the denominator.\n\nL'Hospital's rule states that if the limit of a function as x approaches a certain value results in an indeterminate form 0/0 or ∞/∞, then the limit of this function is equal to the limit of the derivative of the numerator divided by the derivative of the denominator.\n\n1. Take the derivative of the numerator. Using the first part of the Fundamental Theorem of Calculus, the derivative of an integral from a constant to a variable of a function is just the function evaluated at that variable.\n\n   So, the derivative of the integral from 0 to x of (3t)/(sqrt(t^3+2)) dt is just (3x)/(sqrt(x^3+2)).\n\n2. Take the derivative of the denominator using the power rule. The derivative of x^2 is 2x.\n\n3. Now we have a new limit: the limit as x goes to 0 of [(3x)/(sqrt(x^3+2))]/(2x).\n\n4. Simplify the expression by cancelling out the 'x' in the numerator and the denominator, we get: \n\n   limit as x goes to 0 of [3/(2*sqrt(x^3+2))].\n\n5. Now, as x goes to 0, the expression becomes 3/(2*sqrt(2)), which is a constant.\n\nSo, the limit of the original expression as x goes to 0 is 3/(2*sqrt(2)).\n\nHence, the answer is 3/(2*sqrt(2)).",
@@ -572,7 +572,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 91,
+        "GenNo.": "30 - 1",
         "Problem": "Find a function f and a number a such that 7 + integral f(t)/(t^2)dt from a to x = 3sqrt(x) for all x > 0.",
         "Answer": "f(x) = 3x*sqrt(x)/2, a=49/9",
         "Solution": "To solve this problem, we need to differentiate both sides of the given equation with respect to x, and then solve for the function f(t) using the Fundamental Theorem of Calculus. We also need to find a suitable value for 'a' that satisfies the equation.\n\nThe given equation is 7 + ∫[a,x] (f(t)/(t^2)) dt = 3sqrt(x)\n\nWe start by differentiating both sides with respect to x:\n\n0 + d/dx [∫[a,x] (f(t)/(t^2)) dt] = 1/2 * (x^-1/2) * 3\n\nFrom the Fundamental Theorem of Calculus, we know that the derivative of ∫[a,x] (f(t)) dt with respect to x is f(x). So, \n\nf(x)/x^2 = 3/2 * x^-1/2\n\nNow, we solve for f(x):\n\nf(x) = 3/2 * x^(-1/2) * x^2\n= 3/2 * x^(3/2)\n\nThis gives us the function f(x), but we still need to find 'a'. We can find 'a' by substituting x = a into the original equation and solving for 'a':\n\n7 + ∫[a,a] (f(t)/(t^2)) dt = 3sqrt(a)\n7 + 0 = 3sqrt(a)\n\nSolving for 'a' gives:\na = (7/3)^2\na = 49/9\n\nSo, the function f and the number a are f(x) = 3/2 * x^(3/2) and a = 49/9.",
@@ -580,7 +580,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 92,
+        "GenNo.": "30 - 2",
         "Problem": "Find a function f and a number a such that 4 + integral f(t)/(t^3)dt from a to x = sqrt(x) for all x > 0.",
         "Answer": "f(x)=x^(5/2)/2, a=16",
         "Solution": "To solve this problem, we first identify the given function as the fundamental theorem of calculus part 1, which states:\n\nIf a function f is continuous on the interval [a, b] and F is an antiderivative of f on [a, b], then ∫_a^b f(x) dx = F(b) - F(a).\n\nSo, if we have an equation of the form p + ∫_a^x f(t) dt = h(x), we can say that h'(x) = f(x).\n\nIn our case, p = 4, h(x) = sqrt(x), and we are looking for f(x) and a. \n\nFirst, let's find h'(x):\nh'(x) = (1/2)x^(-1/2),\nwhich simplifies to:\nh'(x) = 1/(2sqrt(x)).\n\nTherefore, we have:\nf(x) = h'(x) * (x^3),\nwhich simplifies to:\nf(x) = x^(5/2)/2.\n\nNow we need to find a. To do this, we use the equation p + ∫_a^x f(t) dt = h(x).\nSubstitute p = 4, h(x) = sqrt(x) and f(x) = x^(5/2)/2 into the equation:\n4 + ∫_a^x x^(5/2)/2 dt = sqrt(x).\n\nSince the integral from a to a is 0, we can write this as:\n4 + 0 = sqrt(a),\nwhich simplifies to:\na = 16.\n\nSo, the function f and the number a that satisfy the given conditions are f(x) = x^(5/2)/2 and a = 16.",
@@ -588,7 +588,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 93,
+        "GenNo.": "30 - 3",
         "Problem": "Find a function f and a number a such that 5 + integral f(t)/(t^2)dt from a to x = 4sqrt(x) for all x > 0.",
         "Answer": "f(x)=2x^(3/2), a=25/16",
         "Solution": "To solve this problem, we'll use the Fundamental Theorem of Calculus, which states that if a function f is continuous over an interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral of f from a to b is F(b) - F(a). The derivative of the integral from a to x of a function is just the function evaluated at x. Here it goes:\n\nGiven that 5 + ∫ f(t) / (t^2) dt from a to x = 4sqrt(x), we first subtract 5 from both sides to isolate the integral on one side:\n∫ f(t) / (t^2) dt from a to x = 4sqrt(x) - 5.\n\nNow we can differentiate both sides with respect to x, using the Fundamental Theorem of Calculus on the left side and the power rule on the right side:\n\nf(x) / (x^2) = 2 / sqrt(x) - 0.\n\nNext, multiply both sides by x^2 to solve for f(x):\n\nf(x) = 2x^(3/2) - 0 = 2x^(3/2).\n\nNow that we have f(x), we need to find the value of a. We know the integral from a to a is 0, so plug in x = a in the original equation:\n\n5 + ∫ f(t) / (t^2) dt from a to a = 4sqrt(a) => 5 = 4sqrt(a).\n\nSolving for a gives: a = (5/4)^2 = 25/16.\n\nSo, the function f and the number a that satisfy the given condition are f(x) = 2x^(3/2) and a = 25/16.",
@@ -596,7 +596,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 94,
+        "GenNo.": "30 - 4",
         "Problem": "Find a function f and a number a such that 8 + integral f(t)/(t^3)dt from a to x = 2sqrt(x) for all x > 0.",
         "Answer": "f(x)=x^(5/2), a=16",
         "Solution": "To solve this problem, we need to use the Fundamental Theorem of Calculus, which states that if a function f is continuous over the interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral from a to b of f(t) dt is equal to F(b) - F(a). \n\nGiven that 8 + integral f(t)/(t^3)dt from a to x = 2sqrt(x) for all x > 0, we can rearrange the equation to isolate the integral on one side:\n\nintegral f(t)/(t^3)dt from a to x = 2sqrt(x) - 8\n\nTaking the derivative of both sides with respect to x (using the Fundamental Theorem of Calculus on the left side and the power rule on the right side), we get:\n\nf(x)/x^3 = d/dx [2sqrt(x) - 8]\nf(x)/x^3 = (1/sqrt(x)) - 0\nf(x) = (1/sqrt(x))x^3\n\nNow, we need to find the value of a. We know that the integral from a to a of any function is 0. So, we set the integral equal to 0 and solve for a:\n\n0 = 2sqrt(a) - 8\n8 = 2sqrt(a)\n4 = sqrt(a)\na = 16\n\nSo, the function f and the number a that satisfy the given conditions are f(x) = (1/sqrt(x))x^3 and a = 16.",
@@ -604,7 +604,7 @@
     },
     {
         "Ch.No.": "5.3",
-        "GenNo.": 95,
+        "GenNo.": "30 - 5",
         "Problem": "Find a function f and a number a such that 9 + integral f(t)/(t^2)dt from a to x = 3sqrt(x) for all x > 0.",
         "Answer": "f(x)=3x^(3/2)/2, a=9",
         "Solution": "To find the function f and a number a such that 9 + ∫ f(t)/(t^2) dt from a to x = 3sqrt(x) for all x > 0, we first need to differentiate both sides of the equation with respect to x. \n\nThe derivative of the left side of the equation is the function f(x)/x^2, according to the Fundamental Theorem of Calculus. The derivative of 9 is 0, so we don't need to worry about that. \n\nThe derivative of the right side of the equation, 3sqrt(x), is 3/2sqrt(x) (using the power rule for differentiation, where the derivative of x^n is n*x^(n-1), and sqrt(x) is x^(1/2)).\n\nSetting these two equal to each other, we get:\n\nf(x)/x^2 = 3/2sqrt(x)\n\nTo isolate f(x), we multiply both sides by x^2, giving us:\n\nf(x) = 3/2 * x^2 / sqrt(x)\n\nThis simplifies to:\n\nf(x) = 3/2 * x^(3/2)\n\nNow, we need to find the value of a. To do this, we substitute x = a into the original equation. The integral from a to a is 0, so we get:\n\n9 = 3sqrt(a)\n\nSquaring both sides to get rid of the square root gives us:\n\n81 = 9a\n\nSo, a = 81/9 = 9.\n\nTherefore, the function f and the number a that satisfy the given conditions are f(x) = 3/2 * x^(3/2) and a = 9.",
