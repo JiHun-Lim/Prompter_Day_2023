@@ -1,0 +1,352 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+
+<h1>Solution3</h1>
+
+<h3>Problem 1 (Chapter: 1.5) </h3> 
+<p>Find the exact value of \(\cos(2\sin^{-1}(12/13))\).</p>
+<h3>Answer:</h3>
+<p>\(-119/169 \)</p>
+<h3>Solution: </h3>
+<!-- <p>Step 1: We know that cos(2θ) = 1 - 2sin^2(θ). <br>
+We can use this identity to simplify the problem.  <br>
+Step 2: Let θ = sin^-1(12/13).  <br>
+This means that sin(θ) = 12/13.  <br>
+Step 3: We can use the Pythagorean identity, sin^2(θ) + cos^2(θ) = 1, to find cos(θ).  <br>
+Solving for cos(θ), we get cos(θ) = sqrt(1 - sin^2(θ)) = sqrt(1 - (12/13)^2) = sqrt(1 - 144/169) = sqrt(25/169) = 5/13. <br>
+Step 4: Now we can substitute θ = sin^-1(12/13) into the identity cos(2θ) = 1 - 2sin^2(θ) to get  <br>
+cos(2sin^-1(12/13)) = 1 - 2*(12/13)^2 = 1 - 2*144/169 = 1 - 288/169 = -119/169. <br>
+So, the exact value of cos(2sin^-1(12/13)) is -119/169. </p> -->
+<p>\begin{align*}
+  \text{Step 1:} \quad & \text{We know that } \cos(2\theta) = 1 - 2\sin^2(\theta). \\
+  & \text{We can use this identity to simplify the problem.} \\
+  \text{Step 2:} \quad & \text{Let } \theta = \sin^{-1}\left(\frac{12}{13}\right). \\
+  & \text{This means that } \sin(\theta) = \frac{12}{13}. \\
+  \text{Step 3:} \quad & \text{We can use the Pythagorean identity,} \\
+  & \sin^2(\theta) + \cos^2(\theta) = 1, \text{ to find } \cos(\theta). \\
+  & \text{Solving for } \cos(\theta), \text{ we get} \\
+  & \cos(\theta) = \sqrt{1 - \sin^2(\theta)} \\
+  & = \sqrt{1 - \left(\frac{12}{13}\right)^2} \\
+  & = \sqrt{1 - \frac{144}{169}} \\
+  & = \sqrt{\frac{25}{169}} \\
+  & = \frac{5}{13}. \\
+  \text{Step 4:} \quad & \text{Now we can substitute } \theta = \sin^{-1}\left(\frac{12}{13}\right) \\
+  & \text{into the identity } \cos(2\theta) = 1 - 2\sin^2(\theta) \text{ to get} \\
+  & \cos\left(2\sin^{-1}\left(\frac{12}{13}\right)\right) \\
+  & = 1 - 2\left(\frac{12}{13}\right)^2 \\
+  & = 1 - 2\cdot\frac{144}{169} \\
+  & = 1 - \frac{288}{169} \\
+  & = -\frac{119}{169}. \\
+  & \text{So, the exact value of } \cos\left(2\sin^{-1}\left(\frac{12}{13}\right)\right) \text{ is } -\frac{119}{169}.
+  \end{align*}
+  </p>    
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 2 (Chapter: 1.5) </h3> 
+<p>Simplify the expression \(\cos(\sin^{-1}(x))\).</p>
+<h3>Answer:</h3>
+<p>\( \sqrt{1 - x^2}\)</p>
+<h3>Solution: </h3>
+<!-- <p>
+Step 1: We start by recognizing that sin^-1(x) is the angle whose sine is x. <br>
+Step 2: We can then draw a right triangle where the opposite side is x and the hypotenuse is 1.  <br>
+This is because the sine of an angle in a right triangle is the ratio of the length of the opposite side to the length of the hypotenuse. <br>
+Step 3: Using the Pythagorean theorem, we can find the length of the adjacent side.  <br>
+The theorem states that the square of the hypotenuse is equal to the sum of the squares of the other two sides.  <br>
+In this case, the hypotenuse is 1 and one of the other sides is x.  <br>
+Therefore, the length of the adjacent side is sqrt(1 - x^2). <br>
+Step 4: The cosine of an angle in a right triangle is the ratio of the length of the adjacent side to the length of the hypotenuse.  <br>
+Therefore, cos(sin^-1(x)) = sqrt(1 - x^2) / 1 = sqrt(1 - x^2)</p> -->
+<p>\begin{align*}
+  \text{Step 1:} \quad & \text{We start by recognizing that} \quad \sin^{-1}(x) \text{ is the angle whose sine is} \quad x. \\
+  \text{Step 2:} \quad & \text{We can then draw a right triangle where the opposite side is} \quad x \quad \text{and the hypotenuse is} \quad 1. \\
+  & \text{This is because the sine of an angle in a right triangle is the ratio of the length of the opposite side to the length of the hypotenuse.} \\
+  \text{Step 3:} \quad & \text{Using the Pythagorean theorem, we can find the length of the adjacent side.} \\
+  & \text{The theorem states that the square of the hypotenuse is equal to the sum of the squares of the other two sides.} \\
+  & \text{In this case, the hypotenuse is} \quad 1 \quad \text{and one of the other sides is} \quad x. \\
+  & \text{Therefore, the length of the adjacent side is} \quad \sqrt{1 - x^2}. \\
+  \text{Step 4:} \quad & \text{The cosine of an angle in a right triangle is the ratio of the length of the adjacent side to the length of the hypotenuse.} \\
+  & \text{Therefore,} \quad \cos(\sin^{-1}(x)) = \frac{\sqrt{1 - x^2}}{1} = \sqrt{1 - x^2}.
+  \end{align*}
+  </p>
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 3 (Chapter: 3.6) </h3> 
+<p>Find the derivative of \(y = \sin(x^2)\).</p>
+<h3>Answer:</h3>
+<p>\( 2x \cos(x^2)\)</p>
+<h3>Solution: </h3>
+<!-- <p>Step 1: Identify the outer function and the inner function. <br>
+In this case, the outer function is sin(x) and the inner function is x^2. <br>
+Step 2: Apply the chain rule.  <br>
+The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.  <br>
+Step 3: Differentiate the outer function.  <br>
+The derivative of sin(x) is cos(x). <br>
+Step 4: Differentiate the inner function.  <br>
+The derivative of x^2 is 2x. <br>
+Step 5: Multiply the derivatives from steps 3 and 4 according to the chain rule.  <br>
+This gives us (cos(x^2))(2x).So, the derivative of y = sin(x^2) is y' = 2x cos(x^2). </p> -->
+<p>\begin{align*}
+  \text{Step 1:} \quad & \text{Identify the outer function and the inner function.} \\
+  & \text{In this case, the outer function is} \quad \sin(x) \quad \text{and the inner function is} \quad x^2. \\
+  \text{Step 2:} \quad & \text{Apply the chain rule.} \\
+  & \text{The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function.} \\
+  \text{Step 3:} \quad & \text{Differentiate the outer function.} \\
+  & \text{The derivative of} \quad \sin(x) \quad \text{is} \quad \cos(x). \\
+  \text{Step 4:} \quad & \text{Differentiate the inner function.} \\
+  & \text{The derivative of} \quad x^2 \quad \text{is} \quad 2x. \\
+  \text{Step 5:} \quad & \text{Multiply the derivatives from steps 3 and 4 according to the chain rule.} \\
+  & \text{This gives us} \quad (\cos(x^2))(2x). \quad \text{So, the derivative of} \quad y = \sin(x^2) \quad \text{is} \quad y' = 2x \cos(x^2).
+  \end{align*}
+  </p>
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 4 (Chapter: 3.6) </h3> 
+<p>If \(f(5) = 6\) and \(f'(5) = 3/4\), find \((f^{-1})'(6)\).</p>
+<h3>Answer:</h3>
+<p>\( 4/3 \)</p>
+<h3>Solution: </h3>
+<!-- <p> We are given that f(5) = 6 and f'(5) = 3/4, and we are asked to find the derivative of the inverse function at 6, (f^(-1))'(6). <br>
+We know from the inverse function theorem that the derivative of the inverse function is the reciprocal of the derivative of the function at the corresponding point.  <br>
+Mathematically, this is represented as (f^(-1))'(b) = 1 / f'(a), where f(a) = b.In this problem, we are given that f(5) = 6, so we can say that a = 5 and b = 6. <br>
+Therefore, we can substitute these values into the formula to find (f^(-1))'(6) = 1 / f'(5). <br>
+We are given that f'(5) = 3/4, so we substitute this value into the formula to get (f^(-1))'(6) = 1 / (3/4). <br>
+This simplifies to (f^(-1))'(6) = 4/3.So, the derivative of the inverse function at 6, (f^(-1))'(6), is 4/3. </p> -->
+<p>\begin{align*}
+  & \text{We are given that} \quad f(5) = 6 \quad \text{and} \quad f'(5) = \frac{3}{4}, \quad \text{and we are asked to find the derivative of the inverse function at 6,} \quad (f^{-1})'(6). \\
+  & \text{We know from the inverse function theorem that the derivative of the inverse function is the reciprocal of the derivative of the function at the corresponding point.} \\
+  & \text{Mathematically, this is represented as} \quad (f^{-1})'(b) = \frac{1}{f'(a)}, \quad \text{where} \quad f(a) = b. \\
+  & \text{In this problem, we are given that} \quad f(5) = 6, \quad \text{so we can say that} \quad a = 5 \quad \text{and} \quad b = 6. \\
+  & \text{Therefore, we can substitute these values into the formula to find} \quad (f^{-1})'(6) = \frac{1}{f'(5)}. \\
+  & \text{We are given that} \quad f'(5) = \frac{3}{4}, \quad \text{so we substitute this value into the formula to get} \quad (f^{-1})'(6) = \frac{1}{\frac{3}{4}}. \\
+  & \text{This simplifies to} \quad (f^{-1})'(6) = \frac{4}{3}. \quad \text{So, the derivative of the inverse function at 6,} \quad (f^{-1})'(6), \quad \text{is} \quad \frac{4}{3}.
+  \end{align*}
+  </p>
+
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 5 (Chapter: 3.10) </h3> 
+<p>Find the differential \(dy\) and evaluate \(dy\) for the given values of \(x\) and \(dx\). \(y = e^{3x}, x = 2, dx = 0.3\).</p>
+<h3>Answer:</h3>
+<p>\( 0.9e^6 \)</p>
+<h3>Solution: </h3>
+<!-- <p>To find the differential dy, we first need to take the derivative of y with respect to x. <br>
+The function y = e^(3x) is a composition of two functions: the exponential function and the function 3x.  <br>
+Therefore, we need to use the chain rule to find its derivative.  <br>
+The chain rule states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function.  <br>
+The outer function is e^u, and its derivative is e^u.  <br>
+The inner function is 3x, and its derivative is 3.  <br>
+So, by the chain rule, dy/dx = e^(3x) * 3 = 3e^(3x). <br>
+Next, we use the definition of the differential dy, which is dy = (dy/dx) * dx.  <br>
+Substituting the expression we found for dy/dx, we get dy = 3e^(3x) * dx. <br>
+Finally, we substitute the given values of x and dx into the expression for dy.  <br>
+We have x = 2 and dx = 0.3, so dy = 3e^(3*2) * 0.3 = 3e^6 * 0.3 = 0.9e^6. </p> -->
+<p>\begin{align*}
+  & \text{To find the differential} \quad dy, \quad \text{we first need to take the derivative of} \quad y \quad \text{with respect to} \quad x. \\
+  & \text{The function} \quad y = e^{3x} \quad \text{is a composition of two functions: the exponential function and the function} \quad 3x. \\
+  & \text{Therefore, we need to use the chain rule to find its derivative.} \\
+  & \text{The chain rule states that the derivative of a composition of functions is the derivative of the outer function times the derivative of the inner function.} \\
+  & \text{The outer function is} \quad e^u, \quad \text{and its derivative is} \quad e^u. \\
+  & \text{The inner function is} \quad 3x, \quad \text{and its derivative is} \quad 3. \\
+  & \text{So, by the chain rule,} \quad \frac{dy}{dx} = e^{3x} \cdot 3 = 3e^{3x}. \\
+  & \text{Next, we use the definition of the differential} \quad dy, \quad \text{which is} \quad dy = \left(\frac{dy}{dx}\right) \cdot dx. \\
+  & \text{Substituting the expression we found for} \quad \frac{dy}{dx}, \quad \text{we get} \quad dy = 3e^{3x} \cdot dx. \\
+  & \text{Finally, we substitute the given values of} \quad x \quad \text{and} \quad dx \quad \text{into the expression for} \quad dy. \\
+  & \text{We have} \quad x = 2 \quad \text{and} \quad dx = 0.3, \quad \text{so} \quad dy = 3e^{3 \cdot 2} \cdot 0.3 = 3e^6 \cdot 0.3 = 0.9e^6.
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 6 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\sqrt{49.7}\).</p>
+<h3>Answer:</h3>
+<p>\( 7.05 \)</p>
+<h3>Solution: </h3>
+<!-- <p>
+Step 1: Identify the function and the point of tangency. <br>
+The function here is f(x) = sqrt(x) and the point of tangency we'll use is a = 49, because it's a perfect square close to 49.7. <br>
+Step 2: Find the derivative of the function. <br>
+The derivative of f(x) = sqrt(x) is f'(x) = 1/(2*sqrt(x)). <br>
+Step 3: Evaluate the derivative at the point of tangency. <br>
+Substitute a = 49 into the derivative, we get f'(49) = 1/(2*sqrt(49)) = 1/14. <br>
+Step 4: Find the equation of the tangent line. <br>
+The equation of the tangent line is L(x) = f(a) + f'(a)(x - a). <br>
+Substituting the values we have, we get L(x) = sqrt(49) + 1/14 * (x - 49). <br>
+Step 5: Use the linear approximation to estimate sqrt(49.7). <br>
+Substitute x = 49.7 into the equation of the tangent line, we get L(49.7) = sqrt(49) + 1/14 * (49.7 - 49). <br>
+After simplifying, we get L(49.7) = 7 + 0.05 = 7.05. <br>
+So, the linear approximation of sqrt(49.7) is approximately 7.05. </p> -->
+<p>\begin{align*}
+  & \text{Step 1: Identify the function and the point of tangency.} \\
+  & \text{The function here is} \quad f(x) = \sqrt{x} \quad \text{and the point of tangency we'll use is} \quad a = 49, \quad \text{because it's a perfect square close to} \quad 49.7. \\
+  & \text{Step 2: Find the derivative of the function.} \\
+  & \text{The derivative of} \quad f(x) = \sqrt{x} \quad \text{is} \quad f'(x) = \frac{1}{2\sqrt{x}}. \\
+  & \text{Step 3: Evaluate the derivative at the point of tangency.} \\
+  & \text{Substitute} \quad a = 49 \quad \text{into the derivative, we get} \quad f'(49) = \frac{1}{2\sqrt{49}} = \frac{1}{14}. \\
+  & \text{Step 4: Find the equation of the tangent line.} \\
+  & \text{The equation of the tangent line is} \quad L(x) = f(a) + f'(a)(x - a). \\
+  & \text{Substituting the values we have, we get} \quad L(x) = \sqrt{49} + \frac{1}{14} \cdot (x - 49). \\
+  & \text{Step 5: Use the linear approximation to estimate} \quad \sqrt{49.7}. \\
+  & \text{Substitute} \quad x = 49.7 \quad \text{into the equation of the tangent line, we get} \quad L(49.7) = \sqrt{49} + \frac{1}{14} \cdot (49.7 - 49). \\
+  & \text{After simplifying, we get} \quad L(49.7) = 7 + 0.05 = 7.05. \\
+  & \text{So, the linear approximation of} \quad \sqrt{49.7} \quad \text{is approximately} \quad 7.05.
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 7 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\cos(44^{\circ})\).</p>
+<h3>Answer:</h3>
+<p>\( \sqrt{2}/2(1 - \pi/180) \)</p>
+<h3>Solution: </h3>
+<!-- <p>
+To estimate cos(44 * pi/180), we can use a linear approximation by approximating the function near a known point. <br>
+The point we'll use for approximation is pi/4 because that's a familiar value for cosine and it's near 44*pi/180. <br>
+First, we need to find the derivative of cosine, which is -sin(x).  <br>
+The linear approximation formula is:f(a + Δx) ≈ f(a) + f'(a) * Δx. <br>
+The value we're approximating is cos(44 * pi/180), which is equivalent to cos(pi/4 + Δx) with Δx = 44*pi/180 - pi/4. <br>
+Let's calculate Δx:Δx = 44*pi/180 - pi/4 = pi/4 - 11*pi/45 = (45 - 44)pi/180 = pi/180 <br>
+Now, we will substitute a = pi/4, f(a) = cos(pi/4), f'(a) = -sin(pi/4), and Δx = pi/180 into the linear approximation formula <br>
+:f(a + Δx) ≈ f(a) + f'(a) * Δx≈ cos(pi/4) - sin(pi/4) * (pi/180)= √2/2 - (√2/2) * (pi/180)= √2/2 * (1 - pi/180)</p> -->
+<p>\begin{align*}
+  & \text{To estimate} \quad \cos\left(\frac{44\pi}{180}\right), \quad \text{we can use a linear approximation by approximating the function near a known point.} \\
+  & \text{The point we'll use for approximation is} \quad \frac{\pi}{4} \quad \text{because that's a familiar value for cosine and it's near} \quad \frac{44\pi}{180}. \\
+  & \text{First, we need to find the derivative of cosine, which is} \quad -\sin(x). \\
+  & \text{The linear approximation formula is:} \quad f(a + \Delta x) \approx f(a) + f'(a) \cdot \Delta x. \\
+  & \text{The value we're approximating is} \quad \cos\left(\frac{44\pi}{180}\right), \quad \text{which is equivalent to} \quad \cos\left(\frac{\pi}{4} + \Delta x\right) \quad \text{with} \quad \Delta x = \frac{44\pi}{180} - \frac{\pi}{4}. \\
+  & \text{Let's calculate} \quad \Delta x: \quad \Delta x = \frac{44\pi}{180} - \frac{\pi}{4} = \frac{\pi}{4} - \frac{11\pi}{45} = \frac{(45 - 44)\pi}{180} = \frac{\pi}{180}. \\
+  & \text{Now, we will substitute} \quad a = \frac{\pi}{4}, \quad f(a) = \cos\left(\frac{\pi}{4}\right), \quad f'(a) = -\sin\left(\frac{\pi}{4}\right), \quad \text{and} \quad \Delta x = \frac{\pi}{180} \\
+  & \text{into the linear approximation formula:} \\
+  & f(a + \Delta x) \approx f(a) + f'(a) \cdot \Delta x \approx \cos\left(\frac{\pi}{4}\right) - \sin\left(\frac{\pi}{4}\right) \cdot \frac{\pi}{180} \\
+  & = \frac{\sqrt{2}}{2} - \left(\frac{\sqrt{2}}{2}\right) \cdot \frac{\pi}{180} = \frac{\sqrt{2}}{2} \cdot \left(1 - \frac{\pi}{180}\right).
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 8 (Chapter: 5.3) </h3> 
+<p>Find the derivative of the function \(f(x) = \int_{3x}^{4x} (u^2-3)/(u^2+1)\, du \).</p>
+<h3>Answer:</h3>
+<p>\( 4(16x^2-3)/(16x^2+1) - 3(9x^2-3)/(9x^2+1) \)</p>
+<h3>Solution: </h3>
+<!-- <p> The problem involves finding the derivative of a function that is defined by an integral. <br>
+We can use the Fundamental Theorem of Calculus Part 1,  <br>
+which states that if a function f is continuous on the interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral from a to b of f(x) dx is equal to F(b) - F(a).  <br>
+Here, the function inside the integral is f(u) = (u^2 - 3)/(u^2 + 1).  <br>
+We are asked to find the derivative of the function defined by the integral of f(u) from 3x to 4x.  <br>
+By the Fundamental Theorem of Calculus Part 1, the derivative of the integral from a(x) to b(x) of f(t) dt with respect to x is f(b(x)) * b'(x) - f(a(x)) * a'(x).  <br>
+Applying this to our function, we get <br>
+:f'(x) = f(4x) * 4 - f(3x) * 3 = [(4x)^2 - 3]/[(4x)^2 + 1] * 4 - [(3x)^2 - 3]/[(3x)^2 + 1] * 3 = [16x^2 - 3]/[16x^2 + 1] * 4 - [9x^2 - 3]/[9x^2 + 1] * 3 </p> -->
+<p>\begin{align*}
+  & \text{The problem involves finding the derivative of a function that is defined by an integral.} \\
+  & \text{We can use the Fundamental Theorem of Calculus Part 1,} \\
+  & \text{which states that if a function} \, f \, \text{is continuous on the interval} \, [a, b] \, \text{and} \, F \, \text{is an antiderivative of} \, f \, \text{on} \, [a, b], \\
+  & \text{then the definite integral from} \, a \, \text{to} \, b \, \text{of} \, f(x) \, dx \, \text{is equal to} \, F(b) - F(a). \\
+  & \text{Here, the function inside the integral is} \, f(u) = \frac{u^2 - 3}{u^2 + 1}. \\
+  & \text{We are asked to find the derivative of the function defined by the integral of} \, f(u) \, \text{from} \, 3x \, \text{to} \, 4x. \\
+  & \text{By the Fundamental Theorem of Calculus Part 1, the derivative of the integral from} \, a(x) \, \text{to} \, b(x) \, \text{of} \, f(t) \, dt \, \text{with respect to} \, x \\
+  & \text{is} \, f(b(x)) \cdot b'(x) - f(a(x)) \cdot a'(x). \\
+  & \text{Applying this to our function, we get} \\
+  & f'(x) = f(4x) \cdot 4 - f(3x) \cdot 3 \\
+  & = \frac{(4x)^2 - 3}{(4x)^2 + 1} \cdot 4 - \frac{(3x)^2 - 3}{(3x)^2 + 1} \cdot 3 \\
+  & = \frac{16x^2 - 3}{16x^2 + 1} \cdot 4 - \frac{9x^2 - 3}{9x^2 + 1} \cdot 3.
+  \end{align*}
+  </p>
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/1RLctDS2hUQ" > https://youtu.be/1RLctDS2hUQ </A>
+
+<h3>Problem 9 (Chapter: 5.3) </h3> 
+<p>If \(f(x) = \int_{0}^{\cos(x)} \sqrt{1+t^2}\,dt \) and \(g(y) = \int_{2}^{y} f(x)\,dx\). Find \(g''(\pi/3)\).</p>
+<h3>Answer:</h3>
+<p>\(-\sqrt{2}/2 \)</p>
+<h3>Solution: </h3>
+<!-- <p>First, find f'(x) using the Fundamental Theorem of Calculus Part 1:f'(x) = sqrt(1+cos^2x) <br>
+Then, find g'(y) using the Fundamental Theorem of Calculus Part 1: <br>
+g'(y) = f(y) = integral sqrt(1+t^2)dt from 0 to cosyFinally, find g''(y) by taking the derivative of g'(y):g''(y) = f'(y) * -sin(y) <br>
+Substitute y = pi/3 into g''(y) to find the final answer.
+ </p> -->
+<p>  
+  \begin{align*}
+  & \text{First, find} \, f'(x) \, \text{using the Fundamental Theorem of Calculus Part 1:} \\
+  & f'(x) = \sqrt{1+\cos^2x} \\
+  & \text{Then, find} \, g'(y) \, \text{using the Fundamental Theorem of Calculus Part 1:} \\
+  & g'(y) = f(y) = \int_{0}^{\cos y} \sqrt{1+t^2} \, dt \\
+  & \text{Finally, find} \, g''(y) \, \text{by taking the derivative of} \, g'(y): \\
+  & g''(y) = f'(y) \cdot -\sin(y) \\
+  & \text{Substitute} \, y = \frac{\pi}{3} \, \text{into} \, g''(y) \, \text{to find the final answer.}
+  \end{align*}
+  </p>
+ <h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 10 (Chapter: 5.3) </h3> 
+<p>Find a function \(f\) and a number \(a\) such that \(4 + \int_{a}^{x} f(t)/(t^3)\,dt = \sqrt{x}\) for all \(x > 0\).</p>
+<h3>Answer:</h3>
+<p>\( f(x)=x^{5/2}/2, a=16 \)</p>
+<h3>Solution: </h3>
+<!-- <p>To solve this problem, we first identify the given function as the fundamental theorem of calculus part 1, which states: <br>
+If a function f is continuous on the interval [a, b] and F is an antiderivative of f on [a, b], then ∫_a^b f(x) dx = F(b) - F(a). <br>
+So, if we have an equation of the form p + ∫_a^x f(t) dt = h(x), we can say that h'(x) = f(x). <br>
+In our case, p = 4, h(x) = sqrt(x), and we are looking for f(x) and a.  <br>
+First, let's find h'(x):h'(x) = (1/2)x^(-1/2),which simplifies to:h'(x) = 1/(2sqrt(x)). <br>
+Therefore, we have:f(x) = h'(x) * (x^3),which simplifies to:f(x) = x^(5/2)/2. <br>
+Now we need to find a. To do this, we use the equation p + ∫_a^x f(t) dt = h(x). <br>
+Substitute p = 4, h(x) = sqrt(x) and f(x) = x^(5/2)/2 into the equation:4 + ∫_a^x x^(5/2)/2 dt = sqrt(x). <br>
+Since the integral from a to a is 0, we can write this as:4 + 0 = sqrt(a),which simplifies to:a = 16. <br>
+So, the function f and the number a that satisfy the given conditions are f(x) = x^(5/2)/2 and a = 16. </p> -->
+<p>\begin{align*}
+  & \text{To solve this problem, we first identify the given function as the Fundamental Theorem of Calculus Part 1, which states:} \\
+  & \text{If a function} \, f \, \text{is continuous on the interval} \, [a, b] \, \text{and} \, F \, \text{is an antiderivative of} \, f \, \text{on} \, [a, b], \\
+  & \text{then} \, \int_{a}^{b} f(x) \, dx = F(b) - F(a). \\
+  & \text{So, if we have an equation of the form} \, p + \int_{a}^{x} f(t) \, dt = h(x), \\
+  & \text{we can say that} \, h'(x) = f(x). \\
+  & \text{In our case,} \, p = 4, \, h(x) = \sqrt{x}, \, \text{and we are looking for} \, f(x) \, \text{and} \, a. \\
+  & \text{First, let's find} \, h'(x): \quad h'(x) = \frac{1}{2x^{1/2}}, \quad \text{which simplifies to} \quad h'(x) = \frac{1}{2\sqrt{x}}. \\
+  & \text{Therefore, we have} \, f(x) = h'(x) \cdot (x^3), \quad \text{which simplifies to} \, f(x) = \frac{x^{5/2}}{2}. \\
+  & \text{Now we need to find} \, a. \, \text{To do this, we use the equation} \, p + \int_{a}^{x} f(t) \, dt = h(x). \\
+  & \text{Substitute} \, p = 4, \, h(x) = \sqrt{x}, \, \text{and} \, f(x) = \frac{x^{5/2}}{2} \, \text{into the equation:} \\
+  & 4 + \int_{a}^{x} \frac{x^{5/2}}{2} \, dt = \sqrt{x}. \\
+  & \text{Since the integral from} \, a \, \text{to} \, a \, \text{is 0, we can write this as:} \\
+  & 4 + 0 = \sqrt{a}, \quad \text{which simplifies to} \quad a = 16. \\
+  & \text{So, the function} \, f \, \text{and the number} \, a \, \text{that satisfy the given conditions are} \\
+  & f(x) = \frac{x^{5/2}}{2} \, \text{and} \, a = 16.
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+
+<p>    </p>
+
+</body>
+</html>

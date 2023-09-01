@@ -1,0 +1,208 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+
+<h1>Solution1</h1>
+
+<h3>Problem 1 (Chapter: 1.5) </h3> 
+<p>Find the exact value of \(\cos(2\sin^{-1}(5/13))\).</p>
+<h3>Answer:</h3>
+<p>\(119/169\)</p>
+<h3>Solution: </h3>
+<p>To solve this problem, we will use the double-angle identity for cosine, which states that \(\cos(2\theta) = 1 - 2\sin^{2}\theta\). <br>
+    We will also use the Pythagorean identity \(\sin^{2}(\theta) + \cos^{2}(\theta) = 1\) to find the value of \(\cos(\theta)\). <br>
+    Step 1: Let \(\theta = \sin^{-1}(5/13)\). This means that \(\sin(\theta) = 5/13\). <br>
+    Step 2: Use the Pythagorean identity to find \(\cos(\theta)\). <br>
+    We know that \(\sin^{2}(\theta) + \cos^{2}(\theta) = 1\), so we can solve for \(\cos^{2}(\theta)\) = 1 - \(\sin^{2}(\theta) = 1 - (5/13)^{2} = 1 - 25/169 = 144/169\). <br>
+    Therefore, \(\cos(\theta) = \sqrt{144/169} = 12/13\).<br>
+    Step 3: Use the double-angle identity for cosine. We want to find \(\cos(2\theta)\), which is equal to \(1 - 2\sin^{2}(\theta)\). <br>
+    Substituting \(\sin(\theta) = 5/13\), we get \(\cos(2\theta) = 1 - 2\times(5/13)^{2} = 1 - 2\times(25/169) = 1 - 50/169 = 119/169\). <br>
+    So, the exact value of \(\cos(2\sin^{-1}(5/13)) = 119/169\).</p>        
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 2 (Chapter: 1.5) </h3> 
+<p>Simplify the expression \(\sin(\tan^{-1}(x))\).</p>
+<h3>Answer:</h3>
+<p>\(x/\sqrt{x^{2}+1}\)</p>
+<h3>Solution: </h3>
+<p>Step 1: We start by considering the inverse tangent function, \(\tan^{-1}(x)\), which gives us an angle whose tangent is \(x\). <br>
+    Step 2: We can visualize this by drawing a right triangle where the opposite side is \(x\) and the adjacent side is \(1\). <br>
+    This is because the tangent of an angle in a right triangle is the ratio of the opposite side to the adjacent side. <br>
+    Step 3: By the Pythagorean theorem, the hypotenuse of this triangle is \(\sqrt{1 + x^{2}}\). <br>
+    Step 4: Now, the sine of an angle in a right triangle is the ratio of the opposite side to the hypotenuse. <br>
+    Step 5: So, the sine of the angle \(\tan^{-1}(x)\) is \(x/\sqrt{1 + x^{2}}\). <br>
+    Therefore, \(\sin(\tan^{-1}(x)) = x/\sqrt{1 + x^{2}}\). </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 3 (Chapter: 3.6) </h3> 
+<p>Use logarithmic differentiation to find the derivative of the function. \(y = x^{1/x}\).</p>
+<h3>Answer:</h3>
+<p>\( x^{-2+1/x}\times(1-\ln(x))  \)</p>
+<h3>Solution: </h3>
+<p>Step 1: Start by taking the natural logarithm (\(\ln\)) of both sides to simplify the equation. This gives us: \(\ln(y) = \ln(x^{1/x})\) <br>
+    Step 2: Use the properties of logarithms to simplify the right side of the equation. <br>
+    The power rule for logarithms states that \(\log_{b}(m^{n}) = n\times\log_{b}(m)\), so we can bring down the exponent to get: \(\ln(y) = 1/x \times \ln(x)\) <br>
+    Step 3: Now we differentiate both sides of the equation with respect to \(x\). <br>
+    The derivative of \(\ln(y)\) with respect to \(y\) is \(1/y\), and we multiply this by \(dy/dx\) (by the chain rule) to get the derivative with respect to \(x\). <br>
+    On the right side, we use the quotient rule for differentiation (\(d/dx [u/v] = (v\times du/dx - u\times dv/dx) / v^{2}\)) to get: \((1/y) \times dy/dx = (1 - \ln(x)) / x^{2}\) <br>
+    Step 4: Multiply both sides by y to solve for \(dy/dx: dy/dx = y \times (1 - \ln(x)) / x^{2}\) <br>
+    Step 5: Substitute the original function \(y = x^{1/x}\) back into the equation to get the derivative of the original function: \(dy/dx = x^{1/x} \times (1 - \ln(x)) / x^{2}\) <br>
+    So, the derivative of the function \(y = x^{1/x}\) is \(dy/dx = x^{1/x} \times (1 - \ln(x)) / x^{2}\). </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 4 (Chapter: 3.6) </h3> 
+<p>If \(f(4) = 5\) and \(f'(4) = 2/3\), find \((f^{-1})'(5)\).</p>
+<h3>Answer:</h3>
+<p>\( 3/2 \)</p>
+<h3>Solution: </h3>
+<p> The problem is asking us to find the derivative of the inverse function at a given point. <br>
+We can use the formula for the derivative of an inverse function, which is \((f^{-1})'(b) = 1/(f'(a))\) where \(f(a) = b\).<br>
+First, we know that \(f(4) = 5\). So, we can say that \(4\) is the value of \(a\) and \(5\) is the value of \(b\).<br>
+Next, we need to find the value of \(f'(a)\). We know that \(f'(4) = 2/3\). So, \(f'(a) = 2/3\).<br>
+Now we can substitute these values into the formula for the derivative of an inverse function.<br>
+\((f^{-1})'(5) = 1/(f'(4)) = 1/(2/3) = 3/2\).<br>
+So, the derivative of the inverse function at the point \(5\) is \(3/2\).</p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 5 (Chapter: 3.10) </h3> 
+<p>Find the differential \(dy\) and evaluate \(dy\) for the given values of \(x\) and \(dx\). \(y = e^{x/10}, x = 0, dx = 0.1\).</p>
+<h3>Answer:</h3>
+<p>\( 0.01 \)</p>
+<h3>Solution: </h3>
+<p> Step 1: We start by finding the derivative of \(y\) with respect to \(x\). <br>
+The derivative of \(e^{x/10}\) can be found using the chain rule. <br>
+The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. <br>
+Here, our outer function is \(e^{u}\) and our inner function is \(x/10\). <br>
+Step 2: The derivative of \(e^{u}\) with respect to \(u\) is simply \(e^{u}\). So, the derivative of the outer function is \(e^{x/10}\). <br>
+Step 3: The derivative of \(x/10\) with respect to \(x\) is \(1/10\). So, the derivative of the inner function is \(1/10\).<br>
+Step 4: By the chain rule, the derivative of \(y\) with respect to \(x\) is the product of the derivatives of the outer and inner functions. <br>
+Therefore, \(dy/dx = e^{x/10} \times 1/10 = 1/10 \times e^{x/10}\).<br>
+Step 5: The differential \(dy\) is given by \(dy = (dy/dx)dx\). Substituting the expression we found for \(dy/dx\), we get \(dy = 1/10 \times e^{x/10}dx\).<br>
+Step 6: We are given that \(x = 0\) and \(dx = 0.1\). 
+Substituting these values into the expression for \(dy\), we get \(dy = 1/10 \times e^{0/10} \times 0.1 = 1/10 \times e^{0} \times 0.1 = 1/10 \times 1 \times 0.1 = 0.01\).</p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 6 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\sqrt{100.5}\).</p>
+<h3>Answer:</h3>
+<p>\( 401/40 \)</p>
+<h3>Solution: </h3>
+<p> To solve this problem, we will use the concept of linear approximation, which is a method of estimating the value of a function near a certain point by using the tangent line at that point. <br>
+First, we need to choose a function that is easy to compute and is close to the number we want to approximate. <br>
+The square root function, \(f(x) = \sqrt{x}\), is a good choice because we can easily compute the square root of \(100\), which is close to \(100.5\).<br>
+Next, we find the derivative of \(f(x) = \sqrt{x}\), which is \(f'(x) = 1/(2\sqrt{x})\). <br>
+Then, we find the equation of the tangent line at the point where \(x = 100\). <br>
+The slope of the tangent line is \(f'(100) = 1/(2\sqrt{100}) = 1/20\). The point on the function where \(x = 100\) is \((100, \sqrt{100}) = (100, 10)\). <br>
+So, the equation of the tangent line is \(y - 10 = 1/20 \times (x - 100)\). Now, we use this tangent line to approximate the value of \(\sqrt{100.5}\). <br>
+We substitute \(x = 100.5\) into the equation of the tangent line to get \(y - 10 = 1/20 \times (100.5 - 100) = 1/20 \times 0.5 = 0.025\). <br>
+Solving for \(y\) gives \(y = 10 + 0.025 = 10.025\). So, \(\sqrt{100.5}\) is approximately \(10.025\).</p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 7 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\cos(29^{\circ})\).</p>
+<h3>Answer:</h3>
+<p>\(  \sqrt{3}/2 + \pi/360 \)</p>
+<h3>Solution: </h3>
+<p>First, we need to find a number close to \(29 \times \pi/180\) that we can easily compute the cosine of. <br>
+The closest value for which we know the cosine is \(\pi/6\), which is \(30^{\circ}\). <br>
+So, we'll use that as our \(a\) value in the linear approximation formula: \(f(a) + f'(a)(x - a)\). <br>
+The function we're approximating is \(f(x) = \cos(x)\), so we need to compute \(f(a)\) and \(f'(a)\). <br>
+We know that \(f(a) = \cos(\pi/6) = \sqrt{3}/2\). The derivative of \(cos\) is \(-sin\), so \(f'(a) = -\sin(\pi/6) = -1/2\). <br>
+Now we can substitute these values into the linear approximation formula. <br>
+We're trying to find \(f(29 \times \pi/180)\), so our \(x\) value is \(29 \times \pi/180\). <br>
+This gives us:\(\sqrt{3}/2 - 1/2 \times (29 \times \pi/180 - \pi/6)\).<br>
+Simplifying the expression inside the parentheses gives us \(-\pi/180\).<br>
+So, our final approximation is \(\sqrt{3}/2 - 1/2 \times -\pi/180 = \sqrt{3}/2 + \pi/360\).<br>
+The linear approximation of \(\cos(29^{\circ})\) is \(\sqrt{3}/2 + \pi/360\). </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 8 (Chapter: 5.3) </h3> 
+<p>Find the derivative of the function \(g(x) = \int_{2x}^{3x} (u^{2}-1)/(u^{2}+1) \,du\).</p>
+<h3>Answer:</h3>
+<p>\( 3(9x^{2}-1)/(9x^{2}+1) - 2(4x^{2}-1)/(4x^{2}+1)  \)</p>
+<h3>Solution: </h3>
+<p>To solve this problem, we will use the Fundamental Theorem of Calculus Part 1, <br>
+    which states that if a function \(f\) is continuous over the interval \([a, b]\) and \(F\) is an antiderivative of \(f\) on \([a, b]\), then the definite integral from \(a\) to \(b\) of \(f(x)dx\) is equal to \(F(b) - F(a)\). <br>
+In this problem, we have a function of the form \(g(x) = \int_{a(x)}^{b(x)} f(u) \,du\). <br>
+The derivative of such a function is given by \(g'(x) = f(b(x))b'(x) - f(a(x))a'(x)\). <br>
+Here, \(a(x) = 2x\), \(b(x) = 3x\), and \(f(u) = (u^{2} - 1)/(u^{2} + 1)\). <br>
+So, we need to find \(a'(x)\), \(b'(x)\), \(f(a(x))\), and \(f(b(x))\). <br>
+\(a'(x) =\) derivative of \(2x = 2\). \(b'(x) =\) derivative of \(3x = 3\). <br>
+\(f(a(x)) = f(2x) = ((2x)^{2} - 1)/((2x)^{2} + 1) = (4x^{2} - 1)/(4x^{2} + 1)\).<br>
+\(f(b(x)) = f(3x) = ((3x)^{2} - 1)/((3x)^{2} + 1) = (9x^{2} - 1)/(9x^{2} + 1)\).<br>
+Now, we can find \(g'(x)\) using the formula \(g'(x) = f(b(x))b'(x) - f(a(x))a'(x)\) <br>
+\(g'(x) = (9x^{2} - 1)/(9x^{2} + 1) \times 3 - (4x^{2} - 1)/(4x^{2} + 1) \times 2\).<br>
+This is the derivative of the given function. So, \(g'(x) = 3(9x^{2} - 1)/(9x^{2} + 1) - 2(4x^{2} - 1)/(4x^{2} + 1)\) </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/1RLctDS2hUQ" > https://youtu.be/1RLctDS2hUQ </A>
+
+<h3>Problem 9 (Chapter: 5.3) </h3> 
+<p>If \(f(x) = \int_{0}^{sinx} \sqrt{1+t^{2}}\,dt\) and \(g(y) = \int_{3}^{y} f(x)\,dx \). Find \(g''(\pi/6)\).</p>
+<h3>Answer:</h3>
+<p>\( \sqrt{15}/4 \)</p>
+<h3>Solution: </h3>
+<p>To solve this problem, we will use the Fundamental Theorem of Calculus and the Chain Rule.<br>
+First, let's find the derivative of \(f(x)\). <br>
+According to the Fundamental Theorem of Calculus, <br>
+if a function \(f(x)\) is defined as an integral from \(a\) to \(x\) of a function \(g(t)\) dt, then the derivative of \(f(x)\) is just \(g(x)\). <br>
+Therefore, \(f'(x) = \sqrt{1+sin^{2}(x)} \times \cos(x)\). <br>
+The \(cos(x)\) comes from the derivative of the upper limit of the integral, \(sin(x)\).<br>
+Next, let's find the derivative of \(g(y)\). <br>
+Again, using the Fundamental Theorem of Calculus, \(g'(y) = f(y)\).<br>
+Now, we need to find the second derivative of \(g(y)\), which is \(g''(y)\). <br>
+To do this, we take the derivative of \(g'(y) = f(y)\). <br>
+Using the Chain Rule, we have \(g''(y) = f'(y) = \sqrt{1+sin^{2}(y)} \times \cos(y)\).<br>
+Finally, we substitute \(y = \pi/6\) into \(g''(y)\) to find \(g''(\pi/6)\). <br>
+So, \(g''(\pi/6) = \sqrt{1+sin^{2}(\pi/6)} \times \cos(\pi/6) = \sqrt{1+(1/2)^{2}} \times \sqrt{3}/2 = \sqrt{5/4} \times \sqrt{3}/2 = \sqrt{15}/4\).<br>
+So, the solution to the problem is \(g''(\pi/6) = \sqrt{15}/4\). </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 10 (Chapter: 5.3) </h3> 
+<p>Find a function \(f\) and a number \(a\) such that \(6 + \int_{a}^{x} f(t)/t^{2}\,dt = 2\sqrt{x}\) for all \(x > 0\).</p>
+<h3>Answer:</h3>
+<p>\( f(x) = x\sqrt{x}, a = 9  \)</p>
+<h3>Solution: </h3>
+<p>First, let's recognize that the given equation is in the form of the Fundamental Theorem of Calculus, <br>
+which states that if a function \(f\) is continuous over the interval \([a, b]\) and \(F\) is an antiderivative of \(f\) on \([a, b]\), then the definite integral from \(a\) to \(b\) of \(f(t) dt\) is \(F(b) - F(a)\). <br>
+The equation given is \(6 + \int_{a}^{x} f(t)/(t^2)\,dt = 2\sqrt{x}\). <br>
+Let's isolate the integral on one side of the equation: \(\int_{a}^{x} f(t)/(t^2)\,dt = 2\sqrt{x} - 6\). <br>
+Now, we need to find a function \(F(x)\) whose derivative is \(f(x) = F'(x)\) and satisfies the equation. <br>
+We know that the derivative of \(\sqrt{x}\) is \(1/(2\sqrt{x})\), and the derivative of a constant is \(0\). <br>
+So, the derivative of \(2\sqrt{x} - 6\) is \(1/\sqrt{x}\).<br>
+We want our function \(f(t)\) to be divided by \(t^{2}\) in the integral, so we set \(f(t) = t^{2} \times F'(t) = t^{2} / \sqrt{t} = t^{3/2}\).<br>
+Now, we need to find the number \(a\). We know that the integral from \(a\) to \(x\) of \(f(t) dt\) is \(F(x) - F(a)\). <br>
+So, we set \(F(a) = 6\), because when we plug in \(a\) for \(x\) in the original equation, we get \(6\) on the left side.<br>
+So, we have \(F(x) = 2\sqrt{x}\) and \(F(a) = 6\). Solving for a gives us \(a = (6/2)^{2} = 9\).<br>
+So, the function \(f\) and the number \(a\) that satisfy the given equation are \(f(t) = t^{3/2}\) and \(a = 9\). </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+</body>
+</html>

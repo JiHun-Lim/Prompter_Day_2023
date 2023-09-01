@@ -109,7 +109,33 @@ def calculate_marks_view(request):
 def view_result_view(request):
     courses=QMODEL.Course.objects.all()
     return render(request,'student/view_result.html',{'courses':courses})
-    
+
+@login_required(login_url='studentlogin')
+@user_passes_test(is_student)
+def student_solution1_view(request):
+    courses=QMODEL.Course.objects.all()
+    return render(request,'student/student_solution1.html',{'courses':courses})
+@login_required(login_url='studentlogin')
+@user_passes_test(is_student)
+def student_solution2_view(request):
+    courses=QMODEL.Course.objects.all()
+    return render(request,'student/student_solution2.html',{'courses':courses})
+@login_required(login_url='studentlogin')
+@user_passes_test(is_student)
+def student_solution3_view(request):
+    courses=QMODEL.Course.objects.all()
+    return render(request,'student/student_solution3.html',{'courses':courses})
+@login_required(login_url='studentlogin')
+@user_passes_test(is_student)
+def student_solution4_view(request):
+    courses=QMODEL.Course.objects.all()
+    return render(request,'student/student_solution4.html',{'courses':courses})
+@login_required(login_url='studentlogin')
+@user_passes_test(is_student)
+def student_solution5_view(request):
+    courses=QMODEL.Course.objects.all()
+    return render(request,'student/student_solution5.html',{'courses':courses})
+
 
 @login_required(login_url='studentlogin')
 @user_passes_test(is_student)
@@ -124,4 +150,3 @@ def check_marks_view(request,pk):
 def student_marks_view(request):
     courses=QMODEL.Course.objects.all()
     return render(request,'student/student_marks.html',{'courses':courses})
-  

@@ -1,0 +1,257 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+
+<h1>Solution2</h1>
+
+<h3>Problem 1 (Chapter: 1.5) </h3> 
+<p>Find the exact value of \(\sin(2\cos^{-1}(3/5))\).</p>
+<h3>Answer:</h3>
+<p>\(  24/25 \)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Step 1: We know that } \cos^{-1}\left(\frac{3}{5}\right) \text{ is an angle whose cosine is } \frac{3}{5}. \\
+  & \text{Let's call this angle } \theta. \text{ So, } \cos(\theta) = \frac{3}{5}. \\
+  & \text{Step 2: We need to find } \sin(2\theta). \text{ We can use the double angle formula for sine,} \\
+  & \text{which is } \sin(2\theta) = 2\sin(\theta)\cos(\theta). \\
+  & \text{Step 3: We know the value of } \cos(\theta), \text{ but we don't know the value of } \sin(\theta). \\
+  & \text{To find } \sin(\theta), \text{ we can use the Pythagorean identity} \sin^{2}(\theta) + \cos^{2}(\theta) = 1. \\
+  & \text{Solving for } \sin(\theta), \text{ we get } \sin(\theta) = \sqrt{1 - \cos^{2}(\theta)}. \\
+  & \text{Step 4: Substituting } \cos(\theta) = \frac{3}{5} \text{ into the equation, we get} \\
+  & \sin(\theta) = \sqrt{1 - \left(\frac{3}{5}\right)^2} = \sqrt{1 - \frac{9}{25}} = \sqrt{\frac{16}{25}} = \frac{4}{5}. \\
+  & \text{Step 5: Now we can substitute } \sin(\theta) = \frac{4}{5} \text{ and } \cos(\theta) = \frac{3}{5} \text{ into the double angle formula.} \\
+  & \text{We get } \sin(2\theta) = 2 \times \left(\frac{4}{5}\right) \times \left(\frac{3}{5}\right) = \frac{24}{25}. \\
+  & \text{So, the exact value of } \sin\left(2\cos^{-1}\left(\frac{3}{5}\right)\right) \text{ is } \frac{24}{25}.
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 2 (Chapter: 1.5) </h3> 
+<p>Simplify the expression \(\tan(\cos^{-1}(x))\).</p>
+<h3>Answer: </h3>
+<p>\( \sqrt{1 - x^2} / x\)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Step 1: Let's denote } \cos^{-1}(x) \text{ as } y. \text{ Thus, } x = \cos(y). \\
+  & \text{Step 2: We know that } \cos^{2}(y) + \sin^{2}(y) = 1. \text{ So, } \sin^2(y) = 1 - \cos^2(y). \\
+  & \text{Step 3: Since } x = \cos(y), \text{ we can substitute } \cos(y) \text{ with } x \text{ in the equation from step 2.} \\
+  & \text{This gives us } \sin^{2}(y) = 1 - x^2. \\
+  & \text{Step 4: Now, we need to find } \sin(y). \text{ Since } \sin(y) = \sqrt{1 - \cos^{2}(y)}, \text{ we can substitute } \cos(y) \text{ with } x \text{ again.} \\
+  & \text{This gives us } \sin(y) = \sqrt{1 - x^2}. \\
+  & \text{Step 5: Finally, we substitute } y \text{ in } \tan(y) \text{ with } \cos^{-1}(x) \text{ and } \sin(y) \text{ with } \sqrt{1 - x^2}. \\
+  & \text{This gives us } \tan(\cos^{-1}(x)) = \frac{\sqrt{1 - x^2}}{x}.
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/ryLdyDrBfvI" > https://youtu.be/ryLdyDrBfvI </A>
+
+<h3>Problem 3 (Chapter: 3.6) </h3> 
+<p>Use logarithmic differentiation to find the derivative of the function. \(y = (2x)^{1/x}\).</p>
+<h3>Answer:</h3>
+<p>\((2x)^{1/x} \times (-\ln(2x)/x^2 + 1/x^2) \)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Step 1: We start with the given function } y = (2x)^{1/x}. \\
+  & \text{Step 2: To make the differentiation easier, we take the natural logarithm on both sides.} \\
+  & \text{This gives us } \ln(y) = \ln((2x)^{1/x}). \\
+  & \text{Step 3: Using the property of logarithms that allows us to bring the exponent to the front, we get} \\
+  & \ln(y) = \frac{1}{x} \ln(2x). \\
+  & \text{Step 4: Now we differentiate both sides with respect to } x. \\
+  & \text{The left side becomes } \frac{1}{y} \cdot \frac{dy}{dx}, \text{ where } \frac{dy}{dx} \text{ is the derivative of } y \text{ with respect to } x. \\
+  & \text{The right side becomes a bit more complex due to the quotient rule and chain rule.} \\
+  & \text{Step 5: Differentiating } \frac{1}{x} \text{ gives us } -\frac{1}{x^2}. \\
+  & \text{Differentiating } \ln(2x) \text{ gives us } \frac{1}{2x} \cdot 2 = \frac{1}{x}. \\
+  & \text{Step 6: Applying the product rule to the right side, we get} \\
+  & -\frac{1}{x^2} \cdot \ln(2x) + \frac{1}{x} \cdot \frac{1}{x} = -\frac{\ln(2x)}{x^2} + \frac{1}{x^2}. \\
+  & \text{Step 7: So, we have } \frac{1}{y} \cdot \frac{dy}{dx} = -\frac{\ln(2x)}{x^2} + \frac{1}{x^2}. \\
+  & \text{Step 8: To find } \frac{dy}{dx}, \text{ we multiply both sides by } y, \text{ giving us} \\
+  & \frac{dy}{dx} = y \cdot \left(-\frac{\ln(2x)}{x^2} + \frac{1}{x^2}\right). \\
+  & \text{Step 9: Substituting } y = (2x)^{1/x} \text{ back into the equation, we get} \\
+  & \frac{dy}{dx} = (2x)^{1/x} \cdot \left(-\frac{\ln(2x)}{x^2} + \frac{1}{x^2}\right). \\
+  & \text{So, the derivative of the function } y = (2x)^{1/x} \text{ is} \\
+  & \frac{dy}{dx} = (2x)^{1/x} \cdot \left(-\frac{\ln(2x)}{x^2} + \frac{1}{x^2}\right).
+  \end{align*}
+  </p>
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 4 (Chapter: 3.6) </h3> 
+<p>If \(f(3) = 4\) and \(f'(3) = 1/2\), find \((f^{-1})'(4)\).</p>
+<h3>Answer:</h3>
+<p>\( 2 \)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{We are given that } f(3) = 4 \text{ and } f'(3) = \frac{1}{2}. \\
+  & \text{We are asked to find the derivative of the inverse function at } 4, \text{ denoted as } (f^{-1})'(4). \\
+  & \text{By the Inverse Function Theorem, we know that the derivative of the inverse function at a point is the reciprocal of the derivative of the function at the corresponding point.} \\
+  & \text{In other words, if } y = f(x), \text{ then } (f^{-1})'(y) = \frac{1}{f'(x)}. \\
+  & \text{In this case, we know that } f(3) = 4, \text{ so the corresponding point for } 4 \text{ in the inverse function is } 3. \\
+  & \text{Therefore, we can use the derivative of the function at this point to find the derivative of the inverse function at } 4. \\
+  & \text{So, } (f^{-1})'(4) = \frac{1}{f'(3)}. \\
+  & \text{We are given that } f'(3) = \frac{1}{2}, \text{ so we substitute this into the equation to get } (f^{-1})'(4) = \frac{1}{\frac{1}{2}}. \\
+  & \text{Solving this equation gives us } (f^{-1})'(4) = 2.
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 5 (Chapter: 3.10) </h3> 
+<p>Find the differential \(dy\) and evaluate \(dy\) for the given values of \(x\) and \(dx\). \(y = e^{2x}, x = 1, dx = 0.2\).</p>
+<h3>Answer:</h3>
+<p>\(0.4e^2 \)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{First, we need to find the derivative of } y = e^{2x}. \\
+  & \text{The derivative of } e^{2x} \text{ is } e^{2x} \times 2, \text{ by the chain rule.} \\
+  & \text{So, } \frac{dy}{dx} = 2e^{2x}. \\
+  & \text{Next, we substitute } x = 1 \text{ into the derivative to get } \frac{dy}{dx} = 2e^{2 \times 1} = 2e^2. \\
+  & \text{The differential } dy \text{ is defined as } dy = \frac{dy}{dx} \times dx. \\
+  & \text{So, we substitute } dx = 0.2 \text{ into the equation to get } dy = 2e^2 \times 0.2 = 0.4e^2.
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 6 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\sqrt[3]{27.1}\).</p>
+<h3>Answer:</h3>
+<p>\( 811/270\)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Step 1: Identify the function. The function we are working with is } f(x) = \sqrt[3]{x}. \\
+  & \text{Step 2: Find the point of approximation. We are asked to find } \sqrt[3]{27.1}. \\
+  & \text{The cube root of a perfect cube near } 27.1 \text{ is } \sqrt[3]{27} = 3. \text{ So, we will use } 27 \text{ as the point of approximation.} \\
+  & \text{Step 3: Find the derivative of the function. The derivative of } f(x) = \sqrt[3]{x} \text{ is } f'(x) = \frac{1}{3 \sqrt[3]{x^2}}. \\
+  & \text{Step 4: Calculate the derivative at the point of approximation.} \\
+  & \text{Substitute } x = 27 \text{ into the derivative function to get } f'(27) = \frac{1}{3 \sqrt{27^2}} = \frac{1}{3 \times 27} = \frac{1}{81}. \\
+  & \text{Step 5: Use the linear approximation formula. The linear approximation formula is } L(x) = f(a) + f'(a)(x - a). \\
+  & \text{Here, } a \text{ is the point of approximation } 27, \ f(a) \text{ is the function value at } a, \text{ which is } 3, \\
+  & \text{and } f'(a) \text{ is the derivative at } a, \text{ which is } \frac{1}{81}. \\
+  & \text{Substitute these values into the formula to get } L(x) = 3 + \frac{1}{81}(x - 27). \\
+  & \text{Step 6: Estimate the given number.} \\
+  & \text{Substitute } x = 27.1 \text{ into the linear approximation function to get } \\
+  & L(27.1) = 3 + \frac{1}{81}(27.1 - 27) = 3 + 0.0012345679 = 3.0012345679. \\
+  & \text{So, } \sqrt[3]{27.1} \text{ is approximately } 3.0012345679.
+  \end{align*}
+  </p>  
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 7 (Chapter: 3.10) </h3> 
+<p>Use a linear approximation (or differentials) to estimate the given number \(\sin(31^{\circ})\).</p>
+<h3>Answer:</h3>
+<p>\( 1/2 + \sqrt{3} \times \pi/360\)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Step 1: We know that } \sin(x) \text{ is approximately equal to } x \text{ when } x \text{ is near } 0. \\
+  & \text{This is because the tangent line to the graph of } y = \sin(x) \text{ at } x = 0 \text{ is } y = x. \\
+  & \text{Step 2: We convert } 31^\circ \text{ to radians by multiplying by } \pi/180. \\
+  & \text{This gives us } 31 \times \pi/180 \text{ radians.} \\
+  & \text{Step 3: Now we need to find a value close to } 31 \times \pi/180 \text{ that we can easily compute the sine of.} \\
+  & \text{The closest value we know the sine of is } \pi/6, \text{ which is approximately } 30 \times \pi/180. \\
+  & \text{Step 4: We can use the linear approximation formula, which is } f(x) \approx f(a) + f'(a)(x - a), \\
+  & \text{where } f(x) \text{ is the function we're approximating, } a \text{ is the point we're approximating around,} \\
+  & \text{and } f'(x) \text{ is the derivative of the function.} \\
+  & \text{Step 5: In this case, } f(x) = \sin(x), \ a = \pi/6, \text{ and } f'(x) = \cos(x). \\
+  & \text{So, we have } \sin(x) \approx \sin(\pi/6) + \cos(\pi/6)(x - \pi/6). \\
+  & \text{Step 6: We substitute } x = 31 \times \pi/180 \text{ into the approximation.} \\
+  & \text{We get } \sin(31 \times \pi/180) \approx \sin(\pi/6) + \cos(\pi/6)(31 \times \pi/180 - \pi/6). \\
+  & \text{Step 7: We know that } \sin(\pi/6) = 1/2 \text{ and } \cos(\pi/6) = \sqrt{3}/2. \\
+  & \text{So, } \sin(31 \times \pi/180) \approx 1/2 + \sqrt{3}/2 \times (31 \times \pi/180 - \pi/6). \\
+  & \text{Step 8: Simplifying the right side gives us the approximation for } \sin(31 \times \pi/180). \\
+  & \text{So, } \sin(31 \times \pi/180) \text{ is approximately equal to } 1/2 + \sqrt{3}/2 \times (31 \times \pi/180 - \pi/6).
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/sRIDVAcoG5A" > https://youtu.be/sRIDVAcoG5A </A>
+
+<h3>Problem 8 (Chapter: 5.3) </h3> 
+<p>Find the derivative of the function \(h(x) = \int_{x}^{2x} (u^2+2)/(u^2+1) \,du \).</p>
+<h3>Answer:</h3>
+<p>\( 2(4x^2+2)/(4x^2+1) - (x^2+2)/(x^2+1)\)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{The problem is asking for the derivative of a function that is defined as a definite integral.} \\
+  & \text{This is a perfect situation to apply the Leibniz Rule (also known as the Fundamental Theorem of Calculus part 1),} \\
+  & \text{which states that if a function } h(x) \text{ is defined as an integral from } a(x) \text{ to } b(x) \text{ of a function } f(t), \\
+  & \text{then the derivative of } h(x) \text{ is } f(b(x)) \times b'(x) - f(a(x)) \times a'(x). \\
+  & \text{In this case, our function } f(u) \text{ is } \frac{u^2+2}{u^2+1}, \ a(x) = x, \text{ and } b(x) = 2x. \\
+  & \text{So, we need to find } f(a(x)), f(b(x)), a'(x), \text{ and } b'(x). \\
+  & \text{First, let's find } f(a(x)) \text{ and } f(b(x)): \\
+  & f(a(x)) = f(x) = \frac{x^2+2}{x^2+1}. \ f(b(x)) = f(2x) = \frac{(2x)^2+2}{(2x)^2+1} = \frac{4x^2+2}{4x^2+1}. \\
+  & \text{Next, let's find } a'(x) \text{ and } b'(x): \ a'(x) = \text{derivative of } x = 1. \ b'(x) = \text{derivative of } 2x = 2. \\
+  & \text{Now, we can substitute these values into the Leibniz Rule:} \\
+  & h'(x) = f(b(x)) \times b'(x) - f(a(x)) \times a'(x) = \frac{4x^2+2}{4x^2+1} \times 2 - \frac{x^2+2}{x^2+1} \times 1. \\
+  & \text{This simplifies to:} \ h'(x) = \frac{2(4x^2+2)}{4x^2+1} - \frac{x^2+2}{x^2+1}.
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/1RLctDS2hUQ" > https://youtu.be/1RLctDS2hUQ </A>
+
+<h3>Problem 9 (Chapter: 5.3) </h3> 
+<p>If \(f(x) = \int_{0}^{\cos(x)} \sqrt{1+t^2}\,dt\)  and \(g(y) = \int_{2}^{y} f(x)\,dx\). Find \(g''(\pi/4)\).</p>
+<h3>Answer:</h3>
+<p>\( - \sqrt{3}/2\)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{Firstly, we need to find the derivative of } f(x) \text{ using the Fundamental Theorem of Calculus.} \\
+  & \text{According to this theorem, if a function } f(x) \text{ is defined as an integral from } a \text{ to } x \text{ of some function, then the derivative of } f(x) \text{ is just that function.} \\
+  & \text{So, } f'(x) = \sqrt{1+\cos^{2}x} \times -\sin(x) \text{ (the derivative of the upper limit of the integral, } \cos(x) \text{, with respect to } x \text{ is } -\sin(x)). \\
+  & \text{Next, we need to find the derivative of } g(y). \\
+  & \text{Again using the Fundamental Theorem of Calculus, we get } g'(y) = f(y). \\
+  & \text{Now, we need to find the second derivative of } g(y), \text{ which is } g''(y) = f'(y). \\
+  & \text{Substituting the value of } f'(x) \text{ we found earlier, we get } g''(y) = \sqrt{1+\cos^{2}y} \times -\sin(y). \\
+  & \text{Finally, we substitute } y = \pi/4 \text{ into } g''(y) \text{ to find } g''(\pi/4). \\
+  & \text{So, } g''(\pi/4) = \sqrt{1+\cos^{2}(\pi/4)} \times -\sin(\pi/4) = \sqrt{1+1/2} \times -1/\sqrt{2} \\
+  & = -\sqrt{3/2} / \sqrt{2} = -\sqrt{3/4} = -\sqrt{3}/2.
+  \end{align*}
+  </p>  
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+<h3>Problem 10 (Chapter: 5.3) </h3> 
+<p>Find a function \(f\) and a number \(a\) such that \(7 + \int_{a}^{x} f(t)/(t^2)\,dt = 3\sqrt{x} \) for all \(x > 0\).</p>
+<h3>Answer:</h3>
+<p>\( f(x) = 3x\sqrt{x}/2, a=49/9 \)</p>
+<h3>Solution: </h3>
+<p>\begin{align*}
+  & \text{To solve this problem, we need to differentiate both sides of the given equation with respect to } x, \text{ and then solve for the function } f(t) \text{ using the Fundamental Theorem of Calculus.} \\
+  & \text{We also need to find a suitable value for } a \text{ that satisfies the equation.} \\
+  & \text{The given equation is } 7 + \int_{a}^{x} \frac{f(t)}{t^2}\,dt = 3\sqrt{x} \\
+  & \text{We start by differentiating both sides with respect to } x \\
+  & \quad 0 + \frac{d}{dx} \left[ \int_{a}^{x} \frac{f(t)}{t^2}\,dt \right] = \frac{1}{2} \times x^{-1/2} \times 3 \\
+  & \text{From the Fundamental Theorem of Calculus, we know that the derivative of } \int_{a}^{x} f(t)\, dt \text{ with respect to } x \text{ is } f(x). \\
+  & \text{So, } \frac{f(x)}{x^2} = \frac{3}{2} \times x^{-1/2}. \text{ Now, we solve for } f(x): f(x) = \frac{3}{2} \times x^{-1/2} \times x^{2} = \frac{3}{2} \times x^{3/2}. \\
+  & \text{This gives us the function } f(x), \text{ but we still need to find } a. \\
+  & \text{We can find } a \text{ by substituting } x = a \text{ into the original equation and solving for } a: \\
+  & \quad 7 + \int_{a}^{a} \frac{f(t)}{t^2}\,dt = 3\sqrt{a}, \\
+  & \quad 7 + 0 = 3\sqrt{a}. \\
+  & \text{Solving for } a \text{ gives: } a = \left( \frac{7}{3} \right)^2, \quad a = \frac{49}{9}.
+  \end{align*}
+  </p>
+
+<h3>Youtube link: </h3>
+
+<A href = "https://youtu.be/er_tQOBgo-I" > https://youtu.be/er_tQOBgo-I </A>
+
+</body>
+</html>
